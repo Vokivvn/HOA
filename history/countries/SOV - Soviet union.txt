@@ -1,0 +1,17 @@
+﻿set_politics = {
+	ruling_party = cosmism
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+
+	cosmism = 100
+}
+
+create_faction = Cosmist Internationale
+add_to_faction = SOV
+add_to_faction = POL
+
+# Character Recruitment
+recruit_character = SOV_ivan_yefremov

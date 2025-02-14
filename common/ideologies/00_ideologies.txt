@@ -1,46 +1,64 @@
 ideologies = {
 
-	despotism = {
+	cosmism = {
 
 		types = {
 
-			military_dictatorship = {
+			teslaism = {
 			}
 
-			theocracy = {
+			synthesism = {
 			}
 
-			police_state = {
+			new_thought = {
 			}
 
-			absolutism = {
+			futurism = {
 			}
 			
-			esoteric_despotism = {
+			dark_cosmism = {
 			}
 			
-			caesarism = {
+			theosophy = {
 			}
 			
-			totalitarianism = {
+			vperedism = {
 			}
 			
-			techno_theocracy = {
+			cosmist_anarchism = {
 			}
 			
-			fundamentalism = {
+			enlightened_capitalism = {
 			}
 			
-			hedonic_despotism = {
+			palingeneticism = {
 			}
 			
-			state_egoism = {
+			national_futurism = {
 			}
 			
-			private_absolutism = {
+			frontierism = {
 			}
 			
-			autotheism = {
+			uraniocracy = {
+			}
+			
+			xenocracy = {
+			}
+			
+			hive_mind = {
+			}
+			
+			absolute_syncretism = {
+			}
+			
+			ambrosiocracy = {
+			}
+			
+			archeofuturism = {
+			}
+			
+			ecological_cosmism = {
 			}
 		}
 
@@ -53,7 +71,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 90 99 112 }
+		color = { 30 75 96 }
 
 		rules = {
 			can_create_collaboration_government = yes
@@ -93,7 +111,7 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 	
-	managerialism = {
+	anarchism = {
 
 		types = {
 
@@ -195,7 +213,7 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 	
-	third_position = {
+	revolutionary_socialism = {
 
 		types = {
 
@@ -378,7 +396,7 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 	
-	ethno_rad = {
+	reformist_socialism = {
 
 		types = {
 
@@ -457,7 +475,7 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 	
-	dissident_right = {
+	progressivism = {
 
 		types = {
 
@@ -554,7 +572,7 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 	
-	conservatism = {
+	liberalism = {
 
 		types = {
 
@@ -653,7 +671,7 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 	
-	liberalism = {
+	conservatism = {
 
 		types = {
 
@@ -761,7 +779,7 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 	
-	progressivism = {
+	libertarian_right = {
 
 		types = {
 
@@ -860,7 +878,7 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 	
-	diss_left = {
+	institutionalism = {
 
 		types = {
 
@@ -959,7 +977,7 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 	
-	ortho_left = {
+	personalism = {
 
 		types = {
 
@@ -1065,7 +1083,7 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 	
-	reform_left = {
+	absolutism = {
 
 		types = {
 
@@ -1161,7 +1179,7 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 	
-	anarchism = {
+	revolutionary_right = {
 
 		types = {
 
@@ -1266,7 +1284,7 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 	
-	posthuman = {
+	philosophical_thought = {
 
 		types = {
 

@@ -1,0 +1,26 @@
+﻿capital = 64 # Berlin/Brandeburg
+
+# Setup German Politics
+set_politics = {
+	ruling_party = progressivism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	progressivism = 100
+}
+
+# Setup of National Spirits
+add_ideas = {
+	sour_loser
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+}
+
+# Activates the MEFO Bills Mission
+activate_mission = GER_mefo_bills_mission
+
+# Character Recruitment
+recruit_character = GER_marie_elisabeth_luders
