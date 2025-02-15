@@ -1,0 +1,19 @@
+state={
+	id=882
+	name="STATE_882"
+	resources={
+		chromium=6.000
+	}
+	provinces={
+		1800 1879 4670 4685 7317 10235 10630 
+	}
+	
+	history={
+		owner = KAZ
+	}
+	
+	manpower=230210
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

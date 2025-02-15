@@ -1,8 +1,7 @@
-# Aleksandra Kollontay has an unsed portrait
-# Viktor Baydalakov has an unused portrait
-
 characters = {
-	SOV_ivan_yefremov = {
+
+	# Ivan Yefremov
+	SOV_ivan_yefremov = { 
 		name = SOV_ivan_yefremov
 		portraits = {
 			civilian = {
@@ -10,10 +9,12 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = cosmism
-			traits = { stalin_heart_of_steel }
-			expire = "1953.3.1.1"
+			ideology = cosmism_subtype
+			traits = { }
+			expire = "1965.1.1.1"
 			id = -1
 		}
 	}
+
+	
 }
