@@ -1075,5 +1075,13 @@ KUB = {
 	color = rgb { 102 102 153 }
 	color_ui = rgb { 61 61 92 }
 }
+STP = {
+	color = rgb { 76 118 167 }
+	color_ui = rgb { 61 61 92 }
+}
+SNS = {
+	color = rgb { 68 123 104 }
+	color_ui = rgb { 61 61 92 }
+}
 
 

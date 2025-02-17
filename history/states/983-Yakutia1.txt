@@ -4,6 +4,11 @@ state={
 	provinces={
 		1748 1795 1878 4726 4752 4798 4821 4855 7746 7844 7889 10608 10667 10701 10714 12565 12623 12694 
 	}
+
+	history={
+		owner = FER
+	}
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

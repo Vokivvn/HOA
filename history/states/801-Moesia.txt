@@ -6,7 +6,7 @@ state={
 	state_category=rural
 
 	history={
-		owner = BUL
+		owner = GRE
 		victory_points = { #Ruse
 			9612 3
 		}
@@ -18,6 +18,7 @@ state={
 			industrial_complex =1
 
 		}
+		add_core_of = GRE
 		add_core_of = BUL
 
 	}

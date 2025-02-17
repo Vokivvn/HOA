@@ -273,7 +273,12 @@ HES = "countries/Hesse.txt"
 RHI = "countries/Rhineland.txt"
 UBD = "countries/United Baltic Duchy.txt"
 GAL = "countries/Galicia-Lodomeria.txt"
-
+STP = "countries/Saint Petersburg.txt"
+SNS = "countries/Senussi.txt"
+BNT = "countries/Banat.txt"
+PON = "countries/Pontus.txt"
+CIL = "countries/Cilicia.txt"
+IAN = "countries/Italian Anatolia.txt"
 
 
 # REICHSKOMMISSARIATS (no cores) (European)

@@ -8,7 +8,7 @@ state={
 	state_category = town
 
 	history={
-		owner = BUL
+		owner = GRE
 		victory_points = { #Varna
 			9783 5
 		}
@@ -34,6 +34,7 @@ state={
 				naval_base = 1
 			}
 		}
+		add_core_of = GRE
 		add_core_of = BUL
 	}
 

@@ -118,52 +118,61 @@ ideologies = {
 
 		types = {
 
-			managed_democracy = {
+			anarchism_subtype = {
+			}
+			
+			individualist_anarchism = {
 			}
 
-			noocracy = {
+			anarcho_collectivism = {
 			}
 			
-			corporatocracy = {
+			mutualism = {
 			}
 
-			sensocratic_governance = {
+			esoteric_anarchism = {
 			}
 			
-			cryptocracy = {
+			social_anarchsim = {
 			}
 			
-			legalism = {
+			nationalist_anarchism = {
 			}
 			
-			provisional_government = {
+			vanguard_anarchism = {
 			}
 
-			oligarchy = {
+			lawlessness = {
 			}
 			
-			kleptocracy = {
+			anarcho_syndicalism = {
 			}
 			
-			autocratic_technocracy = {
+			anarcho_futurism = {
 			}
 			
-			plutocracy = {
+			eco_anarchism = {
 			}
 			
-			theodemocracy = {
+			religious_anarchism = {
 			}
 			
-			managerial_plutocracy = {
+			illegalism = {
 			}
 			
-			corporatism = {
+			panarchism = {
 			}
 			
-			progressive_anocracy = {
+			post_civilizationism = {
 			}
 			
-			dirigisme = {
+			geoanarchism = {
+			}
+			
+			darwinist_anarchism = {
+			}
+			
+			crony_anarchism = {
 			}
 		}
 
@@ -176,7 +185,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 199 201 203 }
+		color = { 35 31 32 }
 
 		rules = {
 			can_create_collaboration_government = yes
@@ -220,49 +229,58 @@ ideologies = {
 
 		types = {
 
-			classical_fascism = {
+			marxism = {
 			}
 
-			national_syndicalism = {
+			revolutionary_theocracy = {
 			}
 
-			ecofascism = {
+			left_internationalism = {
 			}
 
-			national_distributism = {
+			fitzhughism = {
 			}
 			
-			social_concordism = {
+			blanquism = {
 			}
 			
-			agrarian_nationalism = {
+			syndicalism = {
 			}
 			
-			clerical_fascism = {
+			nationalist_socialism = {
 			}
 			
-			fascistic_populism = {
+			libertarian_socialism = {
 			}
 			
-			national_futurism = {
+			folk_socialism = {
 			}
 			
-			algocratic_corporatism = {
+			religious_communism = {
 			}
 			
-			social_nationalism = {
+			scientific_socialism = {
 			}
 			
-			fordism = {
+			military_communism = {
 			}
 			
-			darwinistic_capitalism = {
+			luddism = {
 			}
 			
-			reactionary_populism = {
+			artisan_communism = {
 			}
 			
-			feuillantism = {
+			xenocommunalism = {
+			}
+			
+			council_communism = {
+			}
+			
+			jacobinism = {
+			}
+			
+			rural_communism = {
 			}
 		}
 
@@ -275,7 +293,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 111 81 38 }
+		color = { 230 57 59 }
 
 		rules = {
 			can_create_collaboration_government = yes
@@ -319,30 +337,35 @@ ideologies = {
 
 		types = {
 
-			classical_nazism = {
+			agrarian_socialism = {
 			}
 
-			eco_nazism = {
+			esoteric_socialism = {
 			}
 
-			ethno_supremacism = {
+			religious_socialism = {
 			}
 			
-			ethno_theism = {
+			utopian_socialism = {
 			}
 			
-			social_darwinism = {
+			left_wing_nationalism = {
 			}
 			
-			herrenvolk_democracy = {
+			monarcho_socialism = {
 			}
 
-			nordicism = {
+			crony_socialism = {
 			}
 			
-			occult_radicalism = {
+			traditionalist_socialism = {
 			}
-
+			
+			democratic_socialism = {
+			}
+			
+			guild_socialism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -354,7 +377,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 63 37 10 }
+		color = { 220 134 119 }
 
 		rules = {
 			can_create_collaboration_government = yes
@@ -398,48 +421,53 @@ ideologies = {
 
 		types = {
 
-			nativist_populism = {
+			national_progressivism = {
 			}
 			
-			revolutionary_nationalism = {
+			agrarian_progressivism = {
 			}
 
-			religious_nationalism = {
+			vardamanism = {
 			}
 			
-			right_accelerationism = {
+			liberal_socialism = {
 			}
 			
-			palingenetic_nationalism = {
+			left_wing_populism = {
 			}
 			
-			right_libertarianism = {
+			religious_progressivism = {
 			}
 			
-			right_internationalism = {
+			social_technocracy = {
 			}
 			
-			technocratic_right = {
+			fabianism = {
 			}
 			
-			ethnopluralism = {
+			social_occultism = {
 			}
 			
-			revolutionary_conservatism = {
+			social_consumerism = {
 			}
 			
-			progressive_traditionalism = {
+			social_artifexism = {
 			}
 			
-			reactionary_modernism = {
+			radical_progressivism = {
 			}
 			
-			objectivism = {
+			social_authoritarianism = {
 			}
 			
-			post_nazism = {
+			crony_progressivism = {
 			}
-
+			
+			cosmopolitanism = {
+			}
+			
+			direct_democracy = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -451,7 +479,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 133 59 100 }
+		color = { 233 163 173 }
 
 		rules = {
 			can_create_collaboration_government = yes
@@ -495,28 +523,28 @@ ideologies = {
 
 		types = {
 
-			social_conservatism = {
+			classical_liberalism = {
 			}
 
-			libertarian_conservatism = {
+			radical_liberalism = {
 			}
 
-			paleoconservatism = {
+			agrarian_liberalism = {
 			}
 
-			social_paternalism = {
+			national_liberalism = {
 			}
 			
-			religious_conservatism = {
+			market_liberalism = {
 			}
 			
-			national_conservatism = {
+			religious_liberalism = {
 			}
 			
-			secular_conservatism = {
+			occult_liberalism = {
 			}
 			
-			bigtent_conservatism = {
+			elitist_liberalism = {
 			}
 			
 			authoritarian_conservatism = {
