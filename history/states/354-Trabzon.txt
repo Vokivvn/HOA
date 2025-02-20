@@ -4,6 +4,11 @@ state={
 	provinces={
 		789 6991 7454 10403 10472 11753 
 	}
+	
+	history={
+		owner = ARM
+	}
+	
 	manpower=1031129
 	buildings_max_level_factor=1.000
 	state_category=town

@@ -58,7 +58,7 @@ SPR = {
 	color_ui = rgb { 255 255 122 }
 }
 ITA = {
-	color = rgb { 67 127 63 }
+	color = rgb { 111 189 72 }
 	color_ui = rgb { 87 165 82 }
 }
 ROM = {
@@ -66,7 +66,7 @@ ROM = {
 	color_ui = rgb { 255 255 120 }
 }
 YUG = {
-	color = rgb { 72 73 126 }
+	color = rgb { 116 124 162 }
 	color_ui = rgb { 94 95 164 }
 }
 SWI = {
@@ -74,15 +74,15 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
-	color = rgb { 171 190 152 }
+	color = rgb { 199 83 83 }
 	color_ui = rgb { 222 247 198 }
 }
 GRE = {
-	color = rgb { 93 181 227 }
+	color = rgb { 122 180 254 }
 	color_ui = rgb { 121 235 255 }
 }
 ALB = {
-	color = rgb { 149 45 102 }
+	color = rgb { 124 10 34 }
 	color_ui = rgb { 194 59 133 }
 }
 NOR = {
@@ -1083,5 +1083,23 @@ SNS = {
 	color = rgb { 68 123 104 }
 	color_ui = rgb { 61 61 92 }
 }
-
-
+BNT = {
+	color = rgb { 30 76 140 }
+	color_ui = rgb { 61 61 92 }
+}
+PON = {
+	color = rgb { 156 175 234 }
+	color_ui = rgb { 61 61 92 }
+}
+CIL = {
+	color = rgb { 219 187 219 }
+	color_ui = rgb { 61 61 92 }
+}
+IAN = {
+	color = rgb { 111 189 72 }
+	color_ui = rgb { 61 61 92 }
+}
+KUR = {
+	color = rgb { 205 163 113 }
+	color_ui = rgb { 61 61 92 }
+}

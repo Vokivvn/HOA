@@ -1,0 +1,19 @@
+﻿capital = 16 # Paris
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	liberalism = 100
+}
+
+create_faction = european_union
+add_to_faction = FRA
+add_to_faction = ENG
+
+recruit_character = FRA_richard_von_coudenhove_kalergi
+
+

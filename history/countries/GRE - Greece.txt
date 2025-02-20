@@ -1,0 +1,33 @@
+﻿capital = 797 # Constantinople
+
+# Setup Greek Politics
+set_politics = {
+	ruling_party = absolutism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	absolutism = 100
+}
+
+# Setup of National Spirits
+add_ideas = {
+	sour_loser
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+}
+
+create_faction = constantinople_pact
+add_to_faction = GRE
+add_to_faction = PON
+add_to_faction = YUG
+add_to_faction = ROM
+add_to_faction = KUR
+add_to_faction = CIL
+add_to_faction = ARM
+
+recruit_character = GRE_konstantinos_karamanlis
+
+

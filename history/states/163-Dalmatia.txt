@@ -8,7 +8,15 @@ state={
 	history={
 		owner = ITA
 	}
-
+		buildings = {
+			591 = {
+				naval_base = 3
+					is_port = yes
+				}
+			}	
+		}
+	}
+	
 	manpower=18000
 	buildings_max_level_factor=1.000
 	state_category=enclave

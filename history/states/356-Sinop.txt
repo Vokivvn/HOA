@@ -4,6 +4,11 @@ state={
 	provinces={
 		979 3967 3982 6920 6938 6978 9844 9871 11839 11897 
 	}
+	
+	history={
+		owner = GRE
+	}
+	
 	manpower=860589
 	buildings_max_level_factor=1.000
 	state_category=rural
