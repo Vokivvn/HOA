@@ -1,24 +1,35 @@
-state={
-	id=163
-	name="STATE_163"
-	provinces={
-		591 984 3601 3868 3924 3943 3974 6611 11901 13252 
-	}
+state = {
+	id = 163
+	name = "STATE_163"
+	manpower = 18000
 	
-	history={
+	state_category = enclave
+	
+	history = {
 		owner = ITA
-	}
-		buildings = {
-			591 = {
-				naval_base = 3
-					is_port = yes
-				}
-			}	
+		victory_points = { #Zara/Zadar
+			3943 5 
 		}
+		buildings = {
+			infrastructure = 3 #was: 5
+			3943 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = YUG
+		add_core_of = CRO
+		add_core_of = LBV
+		start_resistance = CRO #Yugoslavia shouldn't resist occupation
+		set_compliance = 70
+
+		### CHANGED TO A MROE ROBUST SYSTEM
+		##CONTROLLED BY ITALY AT GAME START -> ITALIAN NAMES
+		#set_state_name = STATE_163_ITA
+		#set_province_name = { id = 3943 name = VICTORY_POINTS_3943_ITA }
 	}
-	
-	manpower=18000
-	buildings_max_level_factor=1.000
-	state_category=enclave
-	local_supplies=0.000
+	provinces = {	
+		3943 
+	}
+
+	local_supplies = 0.0 
 }

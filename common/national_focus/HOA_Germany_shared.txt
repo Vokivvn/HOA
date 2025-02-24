@@ -1,0 +1,225 @@
+﻿#intro tree
+shared_focus = {
+	id = GER_the_iron_front
+	icon = GFX_GER_the_iron_front
+	cost = 1.00
+	
+	x = 15
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_the_iron_front"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_against_nazi_radicalism
+	icon = GFX_GER_against_nazi_radicalism
+	cost = 1.00
+	
+	x = -1
+	y = 1
+	
+	relative_position_id = GER_the_iron_front
+	prerequisite = { focus = GER_the_iron_front }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_against_nazi_radicalism"
+		country_event = {
+			id = GER.3
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_suppress_the_reds
+	icon = GFX_GER_suppress_the_reds
+	cost = 1.00
+	
+	x = 1
+	y = 1
+	
+	relative_position_id = GER_the_iron_front
+	prerequisite = { focus = GER_the_iron_front }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_suppress_the_reds"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_gegen_rosenberg_und_bronnen
+	icon = GFX_GER_gegen_rosenberg_und_bronnen
+	cost = 1.00
+	
+	x = 1
+	y = 1
+	
+	relative_position_id = GER_against_nazi_radicalism
+	prerequisite = { focus = GER_against_nazi_radicalism } prerequisite = { focus = GER_suppress_the_reds }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_gegen_rosenberg_und_bronnen"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_prepare_for_elections
+	icon = GFX_GER_prepare_for_elections
+	cost = 1.00
+	
+	x = -5
+	y = 1
+	
+	relative_position_id = GER_gegen_rosenberg_und_bronnen
+	prerequisite = { focus = GER_gegen_rosenberg_und_bronnen }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_prepare_for_elections"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_coalition_politics
+	icon = GFX_GER_coalition_politics
+	cost = 1.00
+	
+	x = 0
+	y = 1
+	
+	relative_position_id = GER_gegen_rosenberg_und_bronnen
+	prerequisite = { focus = GER_gegen_rosenberg_und_bronnen }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_coalition_politics"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_a_german_economy
+	icon = GFX_GER_a_german_economy
+	cost = 1.00
+	
+	x = 5
+	y = 1
+	
+	relative_position_id = GER_gegen_rosenberg_und_bronnen
+	prerequisite = { focus = GER_gegen_rosenberg_und_bronnen }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_a_german_economy"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_ban_the_nazis
+	icon = GFX_GER_ban_the_nazis
+	cost = 1.00
+	
+	x = 0
+	y = 1
+	
+	relative_position_id = GER_prepare_for_elections
+	prerequisite = { focus = GER_prepare_for_elections }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_ban_the_nazis"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_appeal_to_the_left
+	icon = GFX_GER_appeal_to_the_left
+	cost = 1.00
+	
+	x = -2
+	y = 1
+	
+	relative_position_id = GER_coalition_politics
+	prerequisite = { focus = GER_coalition_politics }
+	mutually_exclusive = {
+		focus = GER_on_our_own
+	}
+	mutually_exclusive = {
+		focus = GER_approach_the_center
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_appeal_to_the_left"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_on_our_own
+	icon = GFX_GER_on_our_own
+	cost = 1.00
+	
+	x = 0
+	y = 1
+	
+	relative_position_id = GER_coalition_politics
+	prerequisite = { focus = GER_coalition_politics }
+	mutually_exclusive = {
+		focus = GER_appeal_to_the_left
+	}
+	mutually_exclusive = {
+		focus = GER_approach_the_center
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_on_our_own"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_approach_the_center
+	icon = GFX_GER_GER_approach_the_center
+	cost = 1.00
+	
+	x = 2
+	y = 1
+	
+	relative_position_id = GER_coalition_politics
+	prerequisite = { focus = GER_coalition_politics }
+	mutually_exclusive = {
+		focus = GER_appeal_to_the_left
+	}
+	mutually_exclusive = {
+		focus = GER_on_our_own
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_approach_the_center"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}

@@ -2,14 +2,10 @@ ideas = {
 
 	country = {
 
-		GRE_agrarian_society = {
+		GER_ = {
 				
 			allowed = {
-				original_tag = GRE
-			}
-
-			allowed_civil_war = {
-				always = yes
+				original_tag = GER
 			}
 
 			picture = generic_agrarian_society

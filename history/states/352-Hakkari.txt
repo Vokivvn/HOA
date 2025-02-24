@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = KUR
+		owner = TUR
 		victory_points = {
 			12476 1 
 		}
@@ -30,6 +30,7 @@ state={
 			limit = {
 				NOT = { has_dlc = "Battle for the Bosporus" }
 			}
+			add_core_of = TUR
 			add_core_of = KUR
 		}
 	}

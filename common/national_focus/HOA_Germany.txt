@@ -1,0 +1,15 @@
+﻿focus_tree = {
+	id = GER_Intro
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = no
+	shared_focus = GER_the_iron_front
+	initial_show_position = {
+		focus = GER_the_iron_front
+	}
+}
