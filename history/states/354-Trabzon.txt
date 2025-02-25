@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = TUR
+		owner = ARM
 		
 		victory_points = {
 			9932 15
@@ -24,11 +24,11 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = TUR
+		add_core_of = ARM
 	}
 
 	provinces={
-		789 3714 3979 6976 6991 7454 9886 9932 10403 10472 11753 11853
+		789 6991 7454 10403 10472 11753 
 	}
 
 	local_supplies=0.0 

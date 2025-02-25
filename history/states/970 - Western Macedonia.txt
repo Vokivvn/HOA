@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = YUG
+		owner = ALB
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
@@ -18,12 +18,12 @@ state = {
 		victory_points = {
 			867 1
 		}
-		add_core_of = YUG
+		add_core_of = ALB
 		add_core_of = MAC
 	}
 
 	provinces = {
-		833 867 11856
+		833 867
 	} 
 	manpower = 343550
 	buildings_max_level_factor = 1.000

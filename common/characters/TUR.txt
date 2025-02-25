@@ -5,7 +5,7 @@ characters = {
 		name = TUR_sevket_sureyya_aydemir
 		portraits = {
 			civilian = {
-				large = GFX_portrait_TUR_sevket_sureyya_aydemir
+				large = GFX_HOA_portrait_sevket_sureyya_aydemir
 			}
 		}
 		country_leader = {

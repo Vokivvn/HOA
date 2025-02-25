@@ -24,8 +24,8 @@ add_to_faction = GRE
 add_to_faction = PON
 add_to_faction = YUG
 add_to_faction = ROM
-add_to_faction = KUR
 add_to_faction = CIL
+add_to_faction = KUR
 add_to_faction = ARM
 
 recruit_character = GRE_konstantinos_karamanlis

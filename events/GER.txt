@@ -1,6 +1,6 @@
 ﻿add_namespace = GER
 
-country_event = { # 
+country_event = { #Intro 
 	id = GER.1
 	title = GER.1.t
 	desc = GER.1.d
@@ -10,5 +10,48 @@ country_event = { #
 	
 	option = { #Puppetry
 		name = GER.1.a
+	}
+}
+
+country_event = { #Elections 
+	id = GER.40
+	title = GER.40.t
+	desc = GER.40.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Rosenberg
+		name = GER.40.a
+		hidden_effect = {
+		set_politics = {
+			ruling_party = revolutionary_right
+			}
+		}
+	}
+}
+
+country_event = { #Junger 
+	id = GER.43
+	title = GER.43.t
+	desc = GER.43.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = GER.43.a
+		hidden_effect = {
+		retire_country_leader = yes
+		}	
+		create_country_leader = {
+			name = "Ernst Jünger"
+			desc = "POLITICS_ERNST_JUNGER_DESC"
+			picture = "Leader_GER_Ernst_Junger"
+			expire = "1965.1.1"
+			ideology = reactionary_modernism
+				traits = {
+			}
+		}
 	}
 }

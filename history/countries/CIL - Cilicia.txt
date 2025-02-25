@@ -1,0 +1,15 @@
+﻿capital = 799 # Hatay
+
+set_politics = {
+	ruling_party = reformist_socialism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	reformist_socialism = 100
+}
+
+recruit_character = CIL_ruben_sosyan
+
+

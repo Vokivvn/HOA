@@ -6,11 +6,8 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = DEN
-		add_core_of = DEN
-		victory_points = {
-			13258 1 
-		}
+		owner = GER
+		add_core_of = GER
 
 		buildings = {
 			infrastructure = 3
@@ -20,7 +17,7 @@ state = {
 
 
 	provinces={
-		332 11251 13258
+		332 11251
 	}
 	
 	local_supplies=0.000

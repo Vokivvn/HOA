@@ -1,0 +1,16 @@
+characters = {
+	CIL_ruben_sosyan = {
+		name = "Ruben Sosyan" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CIL_Ruben_Sosyan
+			}
+		}
+		country_leader = {
+			ideology = religious_socialism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

@@ -1,25 +1,36 @@
 characters = {
 
-
-	GER_marie_elisabeth_luders = {
-
+	# Marie-Elisabeth Luders
+	GER_marie_elisabeth_luders = { 
 		name = GER_marie_elisabeth_luders
-
 		portraits = {
 			civilian = {
-				large = GFX_marie_elisabeth_luders
-				small = GFX_marie_elisabeth_luders_small
+				large = GFX_GER_Marie_Elisabeth_Luders
 			}
 		}
-
 		country_leader = {
-			ideology = progressivism
-			traits = { GER_governor_general_trait }
-			expire = "1987.1.1.1"
+			ideology = liberal_socialism
+			traits = { }
+			expire = "1965.1.1.1"
 			id = -1
 		}
-
 	}
 	
+	# Alfred Rosenberg
+	GER_alfred_rosenberg = { 
+		name = GER_alfred_rosenberg
+		portraits = {
+			civilian = {
+				large = GFX_GER_Alfred_Rosenberg
+			}
+		}
+		country_leader = {
+			ideology = social_darwinism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
 
+	
 }

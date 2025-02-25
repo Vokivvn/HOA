@@ -2,7 +2,7 @@ state={
 	id=799
 	name="STATE_799"
 	provinces={
-		12029 
+		806 11746 12029 
 	}
 	manpower = 234379
 	
@@ -20,8 +20,8 @@ state={
 		}
 
 		1938.9.30 = {
-			owner = TUR
-			controller = TUR
+			owner = CIL
+			controller = CIL
 		}
 	}
 
