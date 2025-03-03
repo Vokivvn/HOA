@@ -10,19 +10,19 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = DON
 		buildings = {
 			infrastructure = 2
 			air_base = 2
 		}
-		add_core_of = SOV
+		add_core_of = DON
 		victory_points = {
 			11696 3
 		}
 	}
 
 	provinces={
-		714 731 748 3748 6702 6718 6733 6750 6753 9688 9705 9707 9726 9742 11633 11661 11678 11690 11693 11694 11696 
+		683 712 714 728 731 748 3748 6702 6718 6730 6733 6748 6750 6753 9688 9705 9707 9726 9742 11632 11633 11661 11678 11690 11693 11694 11696 
 	}
 
 	local_supplies=0.0 

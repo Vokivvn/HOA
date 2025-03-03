@@ -1,3 +1,4 @@
+		700 1450 3668 3682 3711 4463 6701 7554 7624 9645 
 state = {
 	id = 232
 	name = "STATE_232" #Dagestan
@@ -11,7 +12,7 @@ state = {
 
 	history = {
 
-		owner = SOV
+		owner = AZR
 
 		buildings = {
 			infrastructure = 2
@@ -25,13 +26,13 @@ state = {
 			7624 1 # Derbent
 		}
 
-		add_core_of = SOV
+		add_core_of = AZR
 		add_core_of = DAG
 
 	}
 
 	provinces = {
-		683 700 712 728 1450 3668 3682 3711 4463 6701 6730 6748 7554 7624 9645 11632 
+		700 1450 3668 3682 3711 4463 6701 7554 7624 9645 
 	}
 
 	local_supplies = 0.0 

@@ -6,12 +6,12 @@ state = {
 	}
 
 	history = {
-		owner = SOV
+		owner = DON
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = SOV
+		add_core_of = DON
 		add_core_of = KBK
 		victory_points = {
 			11614 1
@@ -19,7 +19,7 @@ state = {
 	}
 
 	provinces = {
-		685 6674 9632 11614
+		685 11614 
 	}
 	manpower = 387990
 	buildings_max_level_factor = 1.000

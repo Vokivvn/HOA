@@ -1,0 +1,20 @@
+state={
+	id=985
+	name="STATE_985"
+	provinces={
+		11531 
+	}
+	
+	history={
+		owner = FRA
+	}
+	
+		victory_points = { 
+			11531 5 # Saarbrücken
+		}
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

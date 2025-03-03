@@ -131,7 +131,7 @@ SRL = "countries/Sri Lanka.txt"
 SUR = "countries/Suriname.txt"
 TAJ = "countries/Tajikistan.txt"
 TRI = "countries/Trinidad and Tobago.txt"
-TMS = "countries/Turkmenistan.txt"
+TKS = "countries/Turkestan.txt"
 UAE = "countries/United Arab Emirates.txt"
 UZB = "countries/Uzbekistan.txt"
 KUW = "countries/Kuwait.txt"
@@ -279,7 +279,8 @@ BNT = "countries/Banat.txt"
 PON = "countries/Pontus.txt"
 CIL = "countries/Cilicia.txt"
 IAN = "countries/Italian Anatolia.txt"
-
+IER = "countries/Italian Eritrea.txt"
+ISO = "countries/Italian Somaliland.txt"
 
 # REICHSKOMMISSARIATS (no cores) (European)
 RKB = "countries/Reichskommisariat Belgien.txt"

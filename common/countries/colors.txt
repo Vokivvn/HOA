@@ -5,7 +5,7 @@ GER = {
 	color_ui = rgb { 185 197 190 }
 }
 ENG = {
-	color = rgb { 201 56 93 }
+	color = rgb { 252 133 171 }
 	color_ui = rgb { 255 73 121 }
 }
 SOV = {
@@ -17,7 +17,7 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 57 113 228 }
+	color = rgb { 118 142 199 }
 	color_ui = rgb { 74 147 255 }
 }
 LUX = {
@@ -464,7 +464,7 @@ PAK = {
 #    color_ui = rgb { 150 180 120 }
 #}
 KOR = {
-	color = rgb { 255  240  195 }
+	color = rgb { 43  94  145 }
 	color_ui = rgb { 255 248 229 }	
 }
 ISR = {
@@ -692,7 +692,7 @@ SAX = {
 	color_ui = rgb { 102 102 0 }
 }
 HAN = {
-	color = rgb { 255 0 0 }
+	color = rgb { 252 133 171 }
 	color_ui = rgb { 255 0 0 }
 }
 WUR = {
@@ -1103,3 +1103,19 @@ KUR = {
 	color = rgb { 205 163 113 }
 	color_ui = rgb { 61 61 92 }
 }
+TKS = {
+	color = rgb { 211 203 132 }
+	color_ui = rgb { 61 61 92 }
+}
+SCO = {
+	color = rgb { 252 133 171 }
+	color_ui = rgb { 61 61 92 }
+} 
+WLS = {
+	color = rgb { 252 133 171 }
+	color_ui = rgb { 61 61 92 }
+} 
+NIR = {
+	color = rgb { 252 133 171 }
+	color_ui = rgb { 61 61 92 }
+} 

@@ -23,8 +23,8 @@ state = {
 			11401 3
 		}
 
-		owner = CZE
-		add_core_of = CZE
+		owner = AUS
+		add_core_of = AUS
 
 		buildings = {
 
@@ -52,13 +52,6 @@ state = {
 			}
 
 		}
-
-		1938.9.30 = {
-			owner = GER
-			controller = GER
-			add_core_of = GER
-		}
-
 	}
 
 	provinces = {
