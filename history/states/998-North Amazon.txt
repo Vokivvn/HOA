@@ -1,0 +1,15 @@
+state={
+	id=998
+	name="STATE_998"
+	provinces={
+		2035 10874 13354 13372 13373 13377 
+	}
+	
+	history={
+		owner = PIN
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

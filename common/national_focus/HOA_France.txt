@@ -1,0 +1,15 @@
+﻿focus_tree = {
+	id = FRA_Intro
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	default = no
+	shared_focus = FRA_a_european_dream
+	initial_show_position = {
+		focus = FRA_a_european_dream
+	}
+}

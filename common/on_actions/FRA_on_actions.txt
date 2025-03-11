@@ -1,0 +1,16 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			FRA = {
+				country_event = { id = FRA.1 days = 0 } 
+			}
+		}
+	}
+	on_startup = {
+		effect = {
+			FRA = {
+				country_event = { id = FRA.2 days = 2.2 } 
+			}
+		}
+	}
+}

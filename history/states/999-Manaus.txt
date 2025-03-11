@@ -1,0 +1,23 @@
+state={
+	id=999
+	name="STATE_999"
+	provinces={
+		10934 13337 13353 13355 13356 13358 13370 13374 
+	}
+	
+	history={
+		owner = PIN
+		add_core_of = PIN
+
+		1938.10.25 = {		
+			AZL = {
+				set_province_controller = 13370
+				set_province_controller = 13374
+			} 			
+		}
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

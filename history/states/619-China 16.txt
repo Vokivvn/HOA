@@ -12,10 +12,8 @@ state={
 	}
 
 	history={
-		owner = SIK
-		add_core_of = SIK
+		owner = CHI
 		add_core_of = CHI
-		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -27,7 +25,7 @@ state={
 
 
 	provinces={
-		1970 5016 7790 8112 
+		1970 5016 5042 7790 8112 
 	}
 
 	local_supplies=0.0 

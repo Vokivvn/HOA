@@ -42,6 +42,7 @@ country_event = { #Junger
 	option = { #Puppetry
 		name = GER.43.a
 		hidden_effect = {
+		set_cosmetic_tag = GER_junger
 		retire_country_leader = yes
 		}	
 		create_country_leader = {

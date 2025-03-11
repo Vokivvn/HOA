@@ -1,0 +1,23 @@
+﻿capital = 997 # Macapa
+
+set_politics = {
+	ruling_party = absolutism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	absolutism = 100
+}
+
+1950.1.1 = {
+
+	declare_war_on = {
+		target = PIN
+		type = puppet_wargoal_focus
+	}
+}
+
+recruit_character = YUG_vladimir_velmar_jankovic
+
+

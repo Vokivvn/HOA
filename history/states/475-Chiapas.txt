@@ -7,11 +7,11 @@ state={
 	state_category = rural
 
 	history={
-		owner = MEX
+		owner = GUA
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = MEX
+		add_core_of = GUA
 
 		victory_points = {
 			1900 3
@@ -19,7 +19,7 @@ state={
 	}
 
 	provinces={
-		1900 12753 12867 
+		1900 12867 
 	}
 	
 

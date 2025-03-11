@@ -23,9 +23,9 @@ state=
 			}
 		}
 	}
-	provinces=
-	{
-1903 8244 	}
+	provinces={
+		1903 2080 8244 10948 
+	}
 
 	local_supplies=0.0 
 }

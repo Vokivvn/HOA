@@ -1,0 +1,15 @@
+state={
+	id=991
+	name="STATE_991"
+	provinces={
+		13375 
+	}
+	
+	history={
+		owner = BAN
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

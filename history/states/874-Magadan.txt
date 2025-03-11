@@ -10,11 +10,10 @@ state = {
 			12683 1 
 		}
 
-		owner = SOV
+		owner = FER
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SOV
 		add_core_of = FER
 	}
 

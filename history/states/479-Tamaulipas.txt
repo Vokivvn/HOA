@@ -12,8 +12,8 @@ state = {
 	
 	history = {
 
-		owner = MEX
-		add_core_of = MEX
+		owner = NVR
+		add_core_of = NVR
 		add_core_of = RIG
 
 		buildings = {

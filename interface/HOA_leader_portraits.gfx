@@ -35,11 +35,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CIL/Portrait_CIL_Ruben_Sosyan.png"
 	}
 
-## SOUTH GERMANY
+## COCKAIGNE
 
 	spriteType = {
-		name = "GFX_portrait_GER_Florian_Weber"
-		texturefile = "gfx/leaders/GER/Portrait_GER_Florian_Weber.png"
+		name = "GFX_portrait_MOL_Tristan_Tzara"
+		texturefile = "gfx/leaders/MOL/Portrait_MOL_Tristan_Tzara.png"
 	}
 	
 ## UK / BRITAIN

@@ -1,0 +1,15 @@
+state={
+	id=996
+	name="STATE_996"
+	provinces={
+		1306 4282 4338 7358 10143 10199 10212 10240 12171 12186 12228 
+	}
+	
+	history={
+		owner = PHI
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

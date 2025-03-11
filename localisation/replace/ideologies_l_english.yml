@@ -1,0 +1,8 @@
+﻿l_english:
+ cosmism:0 "Cosmism"
+ cosmism_noun:0 "Cosmist"
+ cosmism_desc:0 "Cosmist Government"
+ cosmism_subtype_desc:0 "§WCosmism§!\n\nCosmism"
+ teslaism:0 "Teslaism"
+ teslaism_desc:0 "§WTeslaism§!\n\nTeslaism"
+ IDEOLOGY_GROUP:0 "[Root.GetRulingPartyLong]"

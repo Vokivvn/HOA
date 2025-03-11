@@ -1,0 +1,40 @@
+﻿add_namespace = FRA
+
+country_event = { #Intro 
+	id = FRA.1
+	title = FRA.1.t
+	desc = FRA.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.1.a
+	}
+}
+
+country_event = { #Algerian push for independence 
+	id = FRA.2
+	title = FRA.2.t
+	desc = FRA.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.2.a
+	}
+}
+
+country_event = { #A European Dream 
+	id = FRA.3
+	title = FRA.3.t
+	desc = FRA.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.3.a
+	}
+}

@@ -7,7 +7,7 @@ state={
 	state_category = rural
 	
 	history={
-		owner = MEX
+		owner = NVR
 		buildings = {
 			infrastructure = 2
 			dockyard = 1
@@ -15,7 +15,7 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = MEX
+		add_core_of = NVR
 		victory_points = {
 			7921 10
 		}
@@ -28,7 +28,7 @@ state={
 	}
 
 	provinces={
-		1945 4946 7921 8003 8057 10853 10871 10895 12804 
+		1945 4898 4946 5052 7921 8003 8057 10172 10853 10871 10895 10916 12804 12873 
 	}
 	
 

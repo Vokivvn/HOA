@@ -3,11 +3,6 @@ MAL_UK = {
     color_ui = rgb { 255 73 121 }
 }
 
-RAJ_UK = {
-	color = rgb { 170  10  10 }
-	color_ui = rgb { 200  10  10 }
-}
-
 RAJ_FREE = {
 	color = rgb { 80  165  10 }
 	color_ui = rgb { 80  165  10 }
@@ -1499,5 +1494,10 @@ BEL_flanders = {
 
 european_union_leader = {
 	color = rgb { 0 51 153 }
+	color_ui = rgb { 0 51 153 }
+}
+
+GER_junger = {
+	color = rgb { 167 150 139 }
 	color_ui = rgb { 0 51 153 }
 }

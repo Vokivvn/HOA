@@ -1,0 +1,93 @@
+﻿#intro tree
+shared_focus = {
+	id = FRA_a_european_dream
+	icon = GFX_FRA_a_european_dream
+	cost = 1.00
+	
+	x = 6
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_a_european_dream"
+		country_event = {
+			id = FRA.3
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = FRA_state_of_the_assemblee_nationale
+	icon = GFX_FRA_state_of_the_assemblee_nationale
+	cost = 1.00
+	
+	x = -6
+	y = 1
+	
+	relative_position_id = FRA_a_european_dream
+	prerequisite = { focus = FRA_a_european_dream }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_a_european_dream"
+		country_event = {
+			id = FRA.1
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = FRA_republican_coalition
+	icon = GFX_FRA_republican_coalition
+	cost = 1.00
+	
+	x = -1
+	y = 1
+	
+	relative_position_id = FRA_state_of_the_assemblee_nationale
+	prerequisite = { focus = FRA_state_of_the_assemblee_nationale }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_a_european_dream"
+		country_event = {
+			id = FRA.1
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = FRA_tolerate_the_socialists
+	icon = GFX_FRA_tolerate_the_socialists
+	cost = 1.00
+	
+	x = 1
+	y = 1
+	
+	relative_position_id = FRA_state_of_the_assemblee_nationale
+	prerequisite = { focus = FRA_state_of_the_assemblee_nationale }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_a_european_dream"
+		country_event = {
+			id = FRA.1
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = FRA_peace_at_last
+	icon = GFX_FRA_peace_at_last
+	cost = 1.00
+	
+	x = -1
+	y = 1
+	
+	relative_position_id = FRA_tolerate_the_socialists
+	prerequisite = { focus = FRA_tolerate_the_socialists } prerequisite = { focus = FRA_republican_coalition }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_a_european_dream"
+		country_event = {
+			id = FRA.1
+			days = 0
+		}
+	}
+}

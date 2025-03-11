@@ -13,6 +13,11 @@ set_popularities = {
 create_faction = european_union
 add_to_faction = FRA
 add_to_faction = ENG
+add_to_faction = HAN
+add_to_faction = WLS
+add_to_faction = NIR
+add_to_faction = SCO
+add_to_faction = OLD
 
 recruit_character = FRA_richard_von_coudenhove_kalergi
 

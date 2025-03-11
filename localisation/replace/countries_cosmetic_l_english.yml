@@ -1296,6 +1296,9 @@
  mountainous_republics_unified:0 "North Caucasia"
  mountainous_republics_unified_DEF:0 "North Caucasia"
  mountainous_republics_unified_ADJ:0 "North Caucasian"
+ GER_junger:0 "Deutsches Reich"
+ GER_junger_def:0 "Das Deutsches Reich"
+ GER_junger_ADJ:0 "Deutsche"
 
  transcaucasia_unified_SOV_communism_subject:0 "Transcaucasian Socialist Federative Soviet Republic"
  transcaucasia_unified_SOV_communism_subject_DEF:0 "the Transcaucasian Socialist Federative Soviet Republic"

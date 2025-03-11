@@ -7,9 +7,8 @@ state={
 	state_category = town
 
 	history={
-		owner = JAP
+		owner = CHI
 		add_core_of = CHI
-		add_core_of = PRC
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1
@@ -22,7 +21,7 @@ state={
 	}
 
 	provinces={
-		900 1052 3830 3900 6969 11822 12043 
+		1052 4137 10068 12043 
 	}
 
 	local_supplies=0.0 
