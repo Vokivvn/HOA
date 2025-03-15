@@ -1,0 +1,16 @@
+characters = {
+	FER_george_ignatieff = {
+		name = "George Ignatieff" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_George_Ignatieff 
+			}
+		}
+		country_leader = {
+			ideology = big_tent
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

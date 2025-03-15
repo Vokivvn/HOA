@@ -11,6 +11,6 @@ set_popularities = {
 	liberalism = 100
 }
 
-recruit_character = FER_guy
+recruit_character = FER_george_ignatieff
 
 
