@@ -1,0 +1,15 @@
+﻿capital = 617
+
+oob = "SIK_1950"
+
+set_politics = {
+	ruling_party = cosmism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	cosmism = 100
+}
+
+recruit_character = SIK_Isa_Yusuf_Alptekin

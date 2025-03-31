@@ -1,0 +1,15 @@
+state={
+	id=1007
+	name="STATE_1007"
+	provinces={
+		5229 12979 
+	}
+	
+	history={
+		owner = CHO
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

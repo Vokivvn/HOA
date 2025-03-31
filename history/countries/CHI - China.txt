@@ -10,6 +10,6 @@ set_popularities = {
 	reformist_socialism = 100
 }
 
-recruit_character = CHI_guy
+recruit_character = CHI_Cheng_Qian
 
 

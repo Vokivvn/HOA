@@ -28,6 +28,7 @@ country_event = { #Elections
 			ruling_party = revolutionary_right
 			}
 		}
+		load_focus_tree = GER_rosenberg
 	}
 }
 
@@ -48,11 +49,12 @@ country_event = { #Junger
 		create_country_leader = {
 			name = "Ernst Jünger"
 			desc = "POLITICS_ERNST_JUNGER_DESC"
-			picture = "Leader_GER_Ernst_Junger"
+			picture = "GFX_GER_Ernst_Junger"
 			expire = "1965.1.1"
 			ideology = reactionary_modernism
 				traits = {
 			}
 		}
+		load_focus_tree = GER_junger
 	}
 }

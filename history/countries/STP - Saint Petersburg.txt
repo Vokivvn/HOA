@@ -1,0 +1,16 @@
+﻿capital = 79 # Saint Petersburg
+
+set_politics = {
+	ruling_party = Personalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	Personalism = 100
+}
+
+recruit_character = STP_Viktorin_Molchanov
+
+

@@ -6,7 +6,7 @@ state={
 	
 	state_category = pastoral
 	history={
-		owner = FRA
+		owner = VOL
 		add_core_of = VOL
 		victory_points = {
 			10836 1
@@ -17,7 +17,7 @@ state={
 	}
 
 	provinces={
-		2001 7950 7983 8071 10836 12851
+		2001 7983 8071 10836 12851 
 	}
 
 	local_supplies=1.0 

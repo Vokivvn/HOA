@@ -1,0 +1,15 @@
+﻿capital = 361 # Washington DC
+
+set_politics = {
+	ruling_party = progressivism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	progressivism = 100
+}
+
+recruit_character = USA_Glen_Taylor
+
+

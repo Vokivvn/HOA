@@ -18,6 +18,24 @@ add_to_faction = WLS
 add_to_faction = NIR
 add_to_faction = SCO
 add_to_faction = OLD
+add_to_faction = GAM
+add_to_faction = SIE
+add_to_faction = GHA
+add_to_faction = TOG
+add_to_faction = DAH
+add_to_faction = NGA
+add_to_faction = EGY
+add_to_faction = SUD
+add_to_faction = KEN
+add_to_faction = UGA
+add_to_faction = TZN
+add_to_faction = MLW
+add_to_faction = ZAM
+add_to_faction = ZIM
+add_to_faction = SAF
+add_to_faction = BCR
+add_to_faction = NZL
+add_to_faction = OMA
 
 recruit_character = FRA_richard_von_coudenhove_kalergi
 

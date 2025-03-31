@@ -21,7 +21,7 @@ characters = {
 		name = GER_alfred_rosenberg
 		portraits = {
 			civilian = {
-				large = GFX_GER_Alfred_Rosenberg
+				large = HOA_GFX_Alfred_Rosenberg
 			}
 		}
 		country_leader = {

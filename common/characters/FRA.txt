@@ -2,10 +2,10 @@ characters = {
 
 	# Richard von Coudenhove-Kalergi
 	FRA_richard_von_coudenhove_kalergi = { 
-		name = FRA_richard_von_coudenhove_kalergi
+		name = "Richard von Coudenhove-Kalergi"
 		portraits = {
 			civilian = {
-				large = GFX_portrait_FRA_richard_von_coudenhove_kalergi
+				large = FRA_richard_von_coudenhove_kalergi
 			}
 		}
 		country_leader = {

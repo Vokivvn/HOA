@@ -27,6 +27,16 @@ spriteTypes = {
 		name = "GFX_GER_Marie_Elisabeth_Luders"
 		texturefile = "gfx/leaders/GER/Portrait_GER_Marie_Elisabeth_Luders.png"
 	}
+	
+	spriteType = {
+		name = "HOA_GFX_Alfred_Rosenberg"
+		texturefile = "gfx/leaders/GER/Leader_GER_Alfred_Rosenberg.png"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_Ernst_Junger"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Ernst_Junger.png"
+	}
 
 ## CILICIA
 
@@ -45,8 +55,8 @@ spriteTypes = {
 ## UK / BRITAIN
 
 	spriteType = {
-		name = "GFX_portrait_ENG_Rishi_Sunak"
-		texturefile = "gfx/leaders/ENG/Portrait_ENG_Rishi_Sunak.png"
+		name = "GFX_portrait_ENG_Leonard_Robert_Carr"
+		texturefile = "gfx/leaders/ENG/Portrait_ENG_Leonard_Robert_Carr.png"
 	}
 
 ## JAPAN
@@ -56,11 +66,32 @@ spriteTypes = {
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Taro_Aso.png"
 	}
 	
-## BRAZIL
+## SAINT PETERSBURG
 
 	spriteType = {
-		name = "GFX_portrait_BRA_Ciro_Gomes"
-		texturefile = "gfx/leaders/BRA/Portrait_BRA_Ciro.png"
+		name = "GFX_portrait_Viktorin_Molchanov"
+		texturefile = "gfx/leaders/STP/Portrait_STP_Viktorin_Molchanov.png"
+	}
+	
+## POLAND
+
+	spriteType = {
+		name = "GFX_portrait_Eugeniusz_Rybka"
+		texturefile = "gfx/leaders/POL/Portrait_POL_Eugeniusz_Rybka.png"
+	}
+	
+## GALICIA-LODOMERIA
+
+	spriteType = {
+		name = "GFX_portrait_Karol_I"
+		texturefile = "gfx/leaders/GAL/Portrait_GAL_Karl_Albrecht.png"
+	}
+
+## FRANCE
+
+	spriteType = {
+		name = "FRA_richard_von_coudenhove_kalergi"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Richard_von_Coudenhove_Kalergi.png"
 	}
 
 ## AUSTRALIA
@@ -70,114 +101,93 @@ spriteTypes = {
 		texturefile = "gfx/leaders/AST/Portrait_AST_Onion_Muncher.png"
 	}
 	
-## SOVIET UNION
+## RUSSIAN NOOSPHERE
 
 	spriteType = {
-		name = "GFX_portrait_SOV_luri_linnik"
-		texturefile = "gfx/leaders/SOV/Portrait_SOV_Yuri_Linnik.png"
+		name = "GFX_portrait_SOV_ivan_yefremov"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Ivan_Yefremov.png"
 	}
 
-## USA !
+## USA
 
 	spriteType = {
-		name = "GFX_portrait_USA_Ro_Khanna"
-		texturefile = "gfx/leaders/USA/Portrait_USA_Ro_Khanna.png"
+		name = "GFX_portrait_Glen_Taylor"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Glen_Taylor.png"
 	}
 	
-	spriteType = {
-		name = "GFX_portrait_USA_Dick_Cheney"
-		texturefile = "gfx/leaders/USA/Portrait_USA_Dick_Cheney.png"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_USA_Peter_Sonski"
-		texturefile = "gfx/leaders/USA/Portrait_USA_Peter_Sonski.png"
-	}
-	
-	spriteType = {
-		name = "GFX_portrait_USA_Cornel_West"
-		texturefile = "gfx/leaders/USA/Portrait_USA_Cornel_West.png"
-	}
-	
-## FRANCE
-
-	spriteType = {
-		name = "GFX_portrait_FRA_Macron1"
-		texturefile = "gfx/leaders/FRA/Portrait_FRA_Macron_Center.png"
-	}
-	
-#### BENELUX
-
 # NETHERLANDS
 
 	spriteType = {
 		name = "GFX_portrait_HOL_Robbert_Dijkgraaf"
 		texturefile = "gfx/leaders/HOL/Portrait_HOL_Robbert_Dijkgraaf.png"
 	}
-
-# SARRE
+	
+## SINKIANG
 
 	spriteType = {
-		name = "GFX_portrait_SRR_Peter_Müller"
-		texturefile = "gfx/leaders/SRR/Portrait_SRR_Peter_Müller.png"
+		name = "GFX_portrait_Isa_Yusuf_Alptekin"
+		texturefile = "gfx/leaders/SIK/Portrait_SIK_Isa_Yusuf_Alptekin.png"
 	}
 	
-################ SE ASIA ################
-
-## SULU
-
-	spriteType = {
-		name = "GFX_portrait_SLU_Sultan"
-		texturefile = "gfx/leaders/SLU/Portrait_SLU_Muedzul_Lail_Tan_Kiram.png"
-	}
-
-## FILIPINES
-
-	spriteType = {
-		name = "GFX_portrait_PHI_Ronald_Cardema"
-		texturefile = "gfx/leaders/PHI/Portrait_PHI_Ronald_Cardema.png"
-	}	
-
-# LUZON
-
-	spriteType = {
-		name = "GFX_portrait_LUZ_Neri_Colmenares"
-		texturefile = "gfx/leaders/LUZ/Portrait_LUZ_Neri_Colmenares.png"
-	}
-
-# MINDANAO (STATE)
-
-	spriteType = {
-		name = "GFX_portrait_MIN_Antonio_Trillanes_IV"
-		texturefile = "gfx/leaders/MIN/Portrait_MIN_Antonio_Trillanes_IV.png"
-	}
-	
-# VISAYAS
-
-	spriteType = {
-		name = "GFX_portrait_VSY_Tomas_Osmena"
-		texturefile = "gfx/leaders/VSY/Portrait_VSY_Tomas_Osmena.png"
-	}
-	
-## NORTH BORNEO
-	spriteType = {
-		name = "GFX_portrait_SAR_Hayati_binti_Mohd_Salleh"
-		texturefile = "gfx/leaders/SAR/Portrait_SAR_Hayati_binti_Mohd_Salleh.png"
-	}
-	
-## NUSANTARA / INDONESIA
+## INDONESIA
 
 	spriteType = {
 		name = "GFX_portrait_INS_Gibran_Rakabming"
 		texturefile = "gfx/leaders/INS/Portrait_INS_Gibran_Rakabming.png"
 	}
 
-# ACEH 
+# CHINA 
 	spriteType = {
-		name = "GFX_portrait_ASY_Tuanku_Warul_Walidin"
-		texturefile = "gfx/leaders/ASY/Portrait_ASY_Tuanku_Warul_Walidin.png"
+		name = "GFX_portrait_Cheng_Qian"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Cheng_Qian.png"
 	}
 	
+# HUNGARY 
+	spriteType = {
+		name = "GFX_portrait_Zoltan_Boszormeny"
+		texturefile = "gfx/leaders/HUN/Portrait_HUN_Zoltán_Boszörmény.png"
+	}
+	
+# FINLAND 
+	spriteType = {
+		name = "GFX_portrait_Antti_Isotalo"
+		texturefile = "gfx/leaders/FIN/Portrait_FIN_Antti_Isotalo.png"
+	}
+	
+# FAR EASTERN REPUBLIC 
+	spriteType = {
+		name = "GFX_portrait_George_Ignatieff"
+		texturefile = "gfx/leaders/FER/Portrait_FER_George_Ignatieff.png"
+	}
+	
+# ITALY 
+	spriteType = {
+		name = "GFX_portrait_Francesco_Ioele"
+		texturefile = "gfx/leaders/ITA/Portrait_ITA_Francesco_Ioele.png"
+	}
 
+# IRAQ 
+	spriteType = {
+		name = "GFX_portrait_abdulkarim_qasim"
+		texturefile = "gfx/leaders/IRQ/Portrait_IRQ_abdulkarim_qasim.png"
+	}
+	
+# ALBANIA 
+	spriteType = {
+		name = "GFX_portrait_Franciszek_Nopcsa"
+		texturefile = "gfx/leaders/ALB/Portrait_ALB_Franciszek_Nopcsa.png"
+	}
+	
+# TRUCIAL STATES 
+	spriteType = {
+		name = "GFX_OMA_George_Antonius"
+		texturefile = "gfx/leaders/OMA/Portrait_OMA_George_Antonius.png"
+	}
+	
+# WALLACHIA 
+	spriteType = {
+		name = "GFX_ROM_Nichifor_Crainic"
+		texturefile = "gfx/leaders/ROM/Portrait_ROM_Nichifor_Crainic.png"
+	}
 	
 }

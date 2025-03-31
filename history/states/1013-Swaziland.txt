@@ -1,0 +1,15 @@
+state={
+	id=1013
+	name="STATE_1013"
+	
+	history={
+		owner = ENG
+	}
+	
+	provinces={
+		7900 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

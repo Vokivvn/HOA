@@ -2,7 +2,7 @@ characters = {
 
 	# Şevket Süreyya Aydemir
 	TUR_sevket_sureyya_aydemir = { 
-		name = TUR_sevket_sureyya_aydemir
+		name = "Şevket Süreyya Aydemir"
 		portraits = {
 			civilian = {
 				large = GFX_HOA_portrait_sevket_sureyya_aydemir

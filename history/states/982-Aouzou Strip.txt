@@ -9,11 +9,11 @@ state={
 
 	
 	history={
-		owner = FRA
+		owner = EDI
+		add_core_of = EDI
 		buildings = {
 			infrastructure = 0
 		}
-		add_core_of = LBA
 	}
 	
 	manpower=0

@@ -5,7 +5,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = FRA
+		owner = MLI
 		add_core_of = MLI
 		
 		buildings = {
@@ -16,7 +16,7 @@ state={
 	}
 
 	provinces={
-		2012 10812 10829 10915 12751 12838 
+		2012 4957 10812 10829 10915 12751 12802 
 	}
 	
 	buildings_max_level_factor=1.000

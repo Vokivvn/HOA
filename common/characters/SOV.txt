@@ -2,7 +2,7 @@ characters = {
 
 	# Ivan Yefremov
 	SOV_ivan_yefremov = { 
-		name = SOV_ivan_yefremov
+		name = "Ivan Yefremov"
 		portraits = {
 			civilian = {
 				large = GFX_portrait_SOV_ivan_yefremov

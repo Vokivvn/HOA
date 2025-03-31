@@ -7,7 +7,7 @@ state = {
 
 	history = { 
 
-		owner = FRA
+		owner = NGR
 		add_core_of = NGR
 		add_core_of = SOK
 
@@ -22,7 +22,7 @@ state = {
 	}
 
 	provinces = {
-		1975 2056 12707
+		1975 2056 8028 10758 12707 
 	}
 
 	local_supplies = 1.0 

@@ -8,8 +8,40 @@
 		}
 	}
 	default = no
-	shared_focus = GER_the_iron_front
+	shared_focus = GER_einheit_freiheit_vaterland
 	initial_show_position = {
-		focus = GER_the_iron_front
+		focus = GER_einheit_freiheit_vaterland
+	}
+}
+
+focus_tree = {
+	id = GER_rosenberg
+	country = {
+		factor = 0
+		modifier = {
+			add = 0
+			tag = GER
+		}
+	}
+	default = no
+	shared_focus = GER_heil_rosenberg
+	initial_show_position = {
+		focus = GER_heil_rosenberg
+	}
+}
+
+focus_tree = {
+	id = GER_junger
+	country = {
+		factor = 0
+		modifier = {
+			add = 0
+			tag = GER
+		}
+	}
+	default = no
+	shared_focus = GER_sturm_sturm_sturm
+	initial_show_position = {
+		focus = GER_sturm_sturm_sturm
 	}
 }

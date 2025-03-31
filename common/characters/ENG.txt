@@ -1,11 +1,11 @@
 characters = {
 
 	# Robert Carr
-	ENG_robert_carr = { 
-		name = ENG_robert_carr
+	ENG_leonard_robert_carr = { 
+		name = "Leonard Robert Carr"
 		portraits = {
 			civilian = {
-				large = GFX_portrait_ENG_robert_carr
+				large = GFX_portrait_ENG_Leonard_Robert_Carr
 			}
 		}
 		country_leader = {

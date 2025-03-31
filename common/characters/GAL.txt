@@ -1,0 +1,16 @@
+characters = {
+	GAL_Karol_I = {
+		name = "Karol I" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Karol_I
+			}
+		}
+		country_leader = {
+			ideology = paternalistic_conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

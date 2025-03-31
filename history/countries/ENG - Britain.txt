@@ -10,6 +10,6 @@ set_popularities = {
 	conservatism = 100
 }
 
-recruit_character = ENG_robert_carr
+recruit_character = ENG_leonard_robert_carr
 
 

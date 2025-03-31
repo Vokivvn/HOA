@@ -1,10 +1,25 @@
 spriteTypes = {	
 
-	#### Generic continuous goal icons
+	#### GER focus tree
 
 	SpriteType = {
-	name = "GFX_goal_continuous_air_production"
-	texturefile = "gfx/interface/goals/goal_continuous_air_production.dds"			
+	name = "GFX_GER_the_iron_front"
+	texturefile = "gfx/interface/goals/focus_GER_the_iron_front.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_GER_german_art_is_free_art"
+	texturefile = "gfx/interface/goals/focus_GER_german_art_is_free_art.png"			
+	}	
+
+	SpriteType = {
+	name = "GFX_GER_learn_from_the_depression"
+	texturefile = "gfx/interface/goals/focus_GER_learn_from_the_depression.png"			
+	}	
+
+	SpriteType = {
+	name = "GFX_GER_sturm_sturm_sturm"
+	texturefile = "gfx/interface/goals/focus_GER_sturm_sturm_sturm.png"			
 	}	
 	
 	SpriteType = {

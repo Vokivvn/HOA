@@ -8,13 +8,13 @@ state=
 	
 	history= {
 		add_core_of = SUD
-		owner = ENG
+		owner = SUD
 		buildings = {
 			infrastructure = 0
 		}
 	}
 	provinces={
-		7987 8103 10900
+		7987 8103 10900 13384 
 	}
 
 	local_supplies=0.0 

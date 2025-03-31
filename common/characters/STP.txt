@@ -1,0 +1,16 @@
+characters = {
+	STP_Viktorin_Molchanov = {
+		name = "Viktorin Molchanov" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Viktorin_Molchanov
+			}
+		}
+		country_leader = {
+			ideology = caesarism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	
