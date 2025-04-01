@@ -10,6 +10,12 @@ set_popularities = {
 	progressivism = 100
 }
 
+create_faction = columbia_accord
+add_to_faction = USA
+add_to_faction = QUE
+add_to_faction = CAN
+add_to_faction = LIB
+
 recruit_character = USA_Glen_Taylor
 
 
