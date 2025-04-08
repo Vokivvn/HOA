@@ -1,0 +1,15 @@
+state={
+	id=1036
+	name="STATE_1036"
+	provinces={
+		6580 9452 11466 
+	}
+	
+	history={
+		owner = POL
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

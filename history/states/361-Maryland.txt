@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = USA
+		owner = BSW
 		victory_points = {
 			3957 40 
 		}
@@ -28,12 +28,12 @@ state={
 				naval_facility = 1
 			}
 		}
-		add_core_of = USA
+		add_core_of = BSW
 
 	}
 
 	provinces={
-		3957 6823 6892 6929 6984 9758 9786 11892 
+		822 3824 3917 3957 6845 6869 6892 6984 9758 9786 11892 
 	}
 
 	local_supplies=0.0 

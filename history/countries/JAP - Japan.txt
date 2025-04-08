@@ -10,6 +10,12 @@ set_popularities = {
 	liberalism = 100
 }
 
+create_faction = pan_asian_liberation_cooperative
+add_to_faction = JAP
+add_to_faction = KOR
+add_to_faction = MAN
+add_to_faction = PHI
+
 recruit_character = JAP_guy
 
 

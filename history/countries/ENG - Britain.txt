@@ -12,4 +12,128 @@ set_popularities = {
 
 recruit_character = ENG_leonard_robert_carr
 
+set_autonomy = {
+	target = WLS
+	autonomous_state = autonomy_constituent_state
+	freedom_level = 0.2
+}
 
+set_autonomy = {
+	target = SCO
+	autonomous_state = autonomy_constituent_state
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = HAN
+	autonomous_state = autonomy_constituent_state
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = GHA
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = TOG
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = BEN
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = NGA
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = GAM
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = SIE
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = BCR
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = EGY
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = SUD
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = GHA
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = UGA
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = KEN
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = TZN
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = ZAM
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = MLW
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = NGR
+	autonomous_state = autonomy_satellite
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = BOM
+	autonomous_state = autonomy_satellite
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = OMA
+	autonomous_state = autonomy_satellite
+	freedom_level = 0.2
+}

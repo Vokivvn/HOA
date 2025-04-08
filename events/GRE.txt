@@ -1,0 +1,91 @@
+﻿add_namespace = GRE
+
+country_event = { #Intro 
+	id = GRE.1
+	title = GRE.1.t
+	desc = GRE.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #
+		name = GRE.1.a
+	}
+}
+
+country_event = { #Macedonia Rises Up
+	id = GRE.26
+	title = GRE.26.t
+	desc = GRE.26.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GRE.26.a
+		MAC = {
+			transfer_state = 106
+			transfer_state = 731
+			load_oob = MAC_REVOLT
+			declare_war_on = {
+    			target = GRE
+    			type = annex_everything
+			}
+			GRE = { 
+				load_oob = GRE_REVOLT
+				country_event = GRE.27 #Bulgaria Rises Up
+			}
+		}
+	}
+ }
+
+
+country_event = { #Bulgaria Rises Up
+	id = GRE.27
+	title = GRE.27.t
+	desc = GRE.27.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GRE.27.a
+		BUL = {
+			transfer_state = 48
+			transfer_state = 801
+			transfer_state = 803
+			load_oob = BUL_REVOLT
+			declare_war_on = {
+    			target = GRE
+    			type = annex_everything
+			}
+			GRE = { 
+				country_event = GRE.28 #Anatolia Rises Up
+			}
+		}
+	}
+ }
+
+country_event = { #Bulgaria Rises Up
+	id = GRE.28
+	title = GRE.28.t
+	desc = GRE.28.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GRE.28.a
+		ATO = {
+			transfer_state = 49
+			transfer_state = 343
+			transfer_state = 347
+			transfer_state = 356
+			load_oob = ATO_REVOLT
+			declare_war_on = {
+    			target = GRE
+    			type = annex_everything
+			}
+		}
+	}
+ }

@@ -13,4 +13,11 @@ on_actions = {
 			}
 		}
 	}
+	on_startup = {
+		effect = {
+			FRA = {
+				country_event = { id = FRA.50 days = 59.2 } 
+			}
+		}
+	}
 }

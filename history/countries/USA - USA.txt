@@ -1,4 +1,4 @@
-﻿capital = 361 # Washington DC
+﻿capital = 395 # Chicago
 
 set_politics = {
 	ruling_party = progressivism
@@ -15,6 +15,12 @@ add_to_faction = USA
 add_to_faction = QUE
 add_to_faction = CAN
 add_to_faction = LIB
+add_to_faction = CLR
+add_to_faction = BSW
+add_to_faction = SSA
+add_to_faction = MET
+add_to_faction = DET
+add_to_faction = MSQ
 
 recruit_character = USA_Glen_Taylor
 

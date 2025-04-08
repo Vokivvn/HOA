@@ -10,7 +10,7 @@ state = {
 
 	history = {
 
-		owner = BEL
+		owner = KAT
 
 		IF = {
 			limit = {
@@ -26,7 +26,6 @@ state = {
 			infrastructure = 1
 		}
 
-		add_core_of = COG
 		add_core_of = KAT
 
 		victory_points = {
@@ -36,7 +35,7 @@ state = {
 	}
 	
 	provinces = {
-		191 1516 1817 1968 4515 12795 12907 
+		191 1817 4515 12907 
 	}
 
 	buildings_max_level_factor = 1.000

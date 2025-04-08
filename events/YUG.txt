@@ -1,0 +1,39 @@
+﻿add_namespace = YUG
+
+country_event = { #Intro 
+	id = YUG.1
+	title = YUG.1.t
+	desc = YUG.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = YUG.1.a
+	}
+}
+
+country_event = { #Croatian Revolt 
+	id = YUG.26
+	title = YUG.26.t
+	desc = YUG.26.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Rosenberg
+		name = YUG.26.a
+		hidden_effect = {
+		CRO = {
+			transfer_state = 109
+			transfer_state = 104
+			transfer_state = 102
+			transfer_state = 853
+			declare_war_on = {
+    			target = YUG
+    			type = annex_everything
+			}
+		YUG = {
+		}
+	}
+}

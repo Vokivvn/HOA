@@ -13,8 +13,8 @@ state = {
 
 	history = {
 
-		owner = USA
-		add_core_of = USA
+		owner = CLR
+		add_core_of = CLR
 
 		buildings = {
 			infrastructure = 2
@@ -31,7 +31,7 @@ state = {
 	}
 
 	provinces = {
-		1862 4521 4607 4736 4799 4816 7756 7827 7879 10422 10591 12134 12399 12425 
+		1663 1862 4521 4607 4736 4799 4816 4865 7756 7827 7879 10422 10591 10651 12134 12399 12425 12699 13153 
 	}
 
 	local_supplies = 0.0 

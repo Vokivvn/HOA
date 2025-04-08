@@ -11,6 +11,11 @@ set_popularities = {
 	revolutionary_right = 100
 }
 
+create_faction = fennoskandian_liiga
+add_to_faction = FIN
+add_to_faction = EST
+add_to_faction = STP
+
 recruit_character = FIN_Antti_Isotalo
 
 

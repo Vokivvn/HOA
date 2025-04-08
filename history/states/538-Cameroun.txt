@@ -10,7 +10,7 @@ state = {
 
 	history = {
 
-		owner = BEL
+		owner = COG
 		add_core_of = COG
 
 		IF = {
@@ -41,7 +41,7 @@ state = {
 	}
 
 	provinces = {
-		988 7219 7931 8048 10071 10883 10951 12741 12824 
+		988 4128 5117 7219 7931 8048 10025 10071 10883 10951 12775 12824 12896 12945 
 	}
 	
 	buildings_max_level_factor = 1.000

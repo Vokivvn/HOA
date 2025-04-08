@@ -1,0 +1,15 @@
+state={
+	id=1028
+	name="STATE_1028"
+	provinces={
+		734 749 6707 9664 11654 
+	}
+	
+	history={
+		owner = MET
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

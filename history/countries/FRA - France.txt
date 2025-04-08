@@ -36,6 +36,8 @@ add_to_faction = SAF
 add_to_faction = BCR
 add_to_faction = NZL
 add_to_faction = OMA
+add_to_faction = NGR
+add_to_faction = BOM
 
 recruit_character = FRA_richard_von_coudenhove_kalergi
 

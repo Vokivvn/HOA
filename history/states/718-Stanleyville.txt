@@ -10,7 +10,7 @@ state = {
 
 	history = {
 
-		owner = BEL
+		owner = CAR
 
 		IF = {
 			limit = {
@@ -30,12 +30,12 @@ state = {
 			1950 3 # Stanleyville
 		}
 
-		add_core_of = COG
+		add_core_of = CAR
 
 	}
 
 	provinces = {
-		1950 2034 2073 2154 6027 11934 12808 12847 
+		2034 2073 2154 6027 11934 12741 12808 
 	}
 	
 	buildings_max_level_factor = 1.000

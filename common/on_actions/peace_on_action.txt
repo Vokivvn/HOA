@@ -1,0 +1,23 @@
+on_actions = {
+	on_state_control_changed = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = ALG }
+					FROM = {
+						tag = FRA
+						AND = {
+							459 = { is_controlled_by = ALG }
+							513 = { is_controlled_by = ALG }
+							514 = { is_controlled_by = ALG }
+						}
+					}
+				}
+				FRA = {
+					country_event = { id = FRA.60 days = 2 }
+				}
+			}
+		} 
+	}
+	
+}

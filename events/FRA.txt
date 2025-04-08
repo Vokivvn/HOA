@@ -38,3 +38,132 @@ country_event = { #A European Dream
 		name = FRA.3.a
 	}
 }
+
+country_event = { #Algerian Protests 
+	id = FRA.50
+	title = FRA.50.t
+	desc = FRA.50.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.50.a
+		hidden_effect = {
+			FRA = {
+				country_event = { id = FRA.51 days = 6 } 
+			}
+		}
+	}
+}
+
+country_event = { #Algeria Situation Worsens 
+	id = FRA.51
+	title = FRA.51.t
+	desc = FRA.51.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.51.a
+		hidden_effect = {
+			FRA = {
+				country_event = { id = FRA.52 days = 15 } 
+			}
+		}
+	}
+}
+
+country_event = { #Algeria In Revolt 
+	id = FRA.52
+	title = FRA.52.t
+	desc = FRA.52.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.52.a
+		hidden_effect = {
+			ALG = {
+				transfer_state = 460
+				set_province_controller = 4131
+				set_province_controller = 4146
+				set_province_controller = 9964
+				set_province_controller = 11939
+			declare_war_on = {
+    			target = FRA
+    			type = annex_everything
+		}	}
+		}
+	}
+}
+
+country_event = { #Algeria Wins 
+	id = FRA.60
+	title = FRA.60.t
+	desc = FRA.60.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.60.a
+		hidden_effect = {
+			white_peace = ALG
+			ALG = {
+				transfer_state = 460
+				transfer_state = 459
+				transfer_state = 513
+				transfer_state = 514
+			}
+			FRA = {
+				country_event = { id = FRA.63 days = 21 } 
+			}
+		}
+	}
+}
+
+country_event = { #Algeria Wins 
+	id = FRA.63
+	title = FRA.63.t
+	desc = FRA.63.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.63.a
+		hidden_effect = {
+			MOR = {
+				transfer_state = 461
+				transfer_state = 462
+				transfer_state = 783
+				transfer_state = 1032
+			}
+			FRA = {
+				country_event = { id = FRA.68 days = 36 } 
+			}
+		}
+	}
+}
+
+country_event = { #Algeria Wins 
+	id = FRA.68
+	title = FRA.68.t
+	desc = FRA.68.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.68.a
+		hidden_effect = {
+			TUN = {
+				transfer_state = 458
+				transfer_state = 665
+		}	}
+		}
+	}
+}

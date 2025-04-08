@@ -6,7 +6,7 @@ state = {
 
 	history = {
 
-		owner = BEL
+		owner = WKA
 
 		IF = {
 			limit = {
@@ -26,12 +26,12 @@ state = {
 			infrastructure = 1
 		}
 
-		add_core_of = COG
+		add_core_of = WKA
 
 	}
 
 	provinces = {
-		1731 1929 2024 4128 7716 8016 9986 10858 
+		1516 1731 1929 1968 8016 10858 12795 
 	}
 
 	buildings_max_level_factor = 1.000

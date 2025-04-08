@@ -1,0 +1,15 @@
+state={
+	id=1024
+	name="STATE_1024"
+	provinces={
+		3878 3894 6909 6911 9847 9850 
+	}
+	
+	history={
+		owner = BSW
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
