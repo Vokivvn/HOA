@@ -1,0 +1,15 @@
+﻿capital = 451 # Tobruk
+
+set_politics = {
+	ruling_party = cosmism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	cosmism = 100
+}
+
+recruit_character = ITC_benito_mussolini
+
+

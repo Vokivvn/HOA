@@ -310,6 +310,9 @@ YEK = "countries/Yeke.txt"
 CSM = "countries/Costermansstad Republic.txt"
 BOM = "countries/Boma.txt"
 CLI = "countries/Central Lithuania.txt"
+ITC = "countries/Italian Cyrenaica.txt"
+NJR = "countries/Najran.txt"
+ASI = "countries/Asir.txt"
 
 # REICHSKOMMISSARIATS (no cores) (European)
 RKB = "countries/Reichskommisariat Belgien.txt"

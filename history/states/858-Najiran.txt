@@ -2,11 +2,11 @@ state={
 	id=858
 	name="STATE_858"
 	provinces={
-		5006 8030 10870 12768 
+		5006 
 	}
 	history = {
-		owner = SAU
-		add_core_of = SAU
+		owner = NJR
+		add_core_of = NJR
 	}
 	manpower=69
 	state_category=pastoral

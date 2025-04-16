@@ -5,6 +5,6 @@
  cosmism_subtype_desc:0 "§WCosmism§!\n\nCosmism"
  teslaism:0 "Teslaism"
  teslaism_desc:0 "§WTeslaism§!\n\nTeslaism"
- anarchism:0 "Cosmism"
- anarchism_noun:0 "Cosmist"
+ anarchism:0 "Anarchism"
+ anarchism_noun:0 "Anarchist"
  IDEOLOGY_GROUP:0 "[Root.GetRulingPartyLong]"

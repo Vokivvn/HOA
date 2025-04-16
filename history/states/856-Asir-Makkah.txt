@@ -4,8 +4,8 @@ state= {
 	
 	history = {
 
-		owner = SAU
-		add_core_of	= SAU
+		owner = ASI
+		add_core_of	= ASI
 
 		buildings = {
 			infrastructure = 1
@@ -27,7 +27,7 @@ state= {
 	state_category = pastoral
 
 	provinces = {
-		1923 2090 5037 8073 10786 12883 
+		1923 8073 10786 
 	}
 
 	buildings_max_level_factor = 1.000

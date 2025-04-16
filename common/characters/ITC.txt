@@ -1,0 +1,15 @@
+characters = {
+	ITC_benito_mussolini = {
+		name = "Benito Mussolini" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Benito_Mussolini
+			}
+		}
+		country_leader = {
+			ideology = absolute_syncretism
+			expire = "1960.1.1.1"
+			id = -1
+		}
+	}
+}

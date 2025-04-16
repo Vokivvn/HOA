@@ -1,0 +1,16 @@
+characters = {
+	IAN_Peppino_Garibaldi = {
+		name = "Peppino Garibaldi" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Peppino_Garibaldi
+			}
+		}
+		country_leader = {
+			ideology = social_authoritarianism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

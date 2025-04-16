@@ -1,0 +1,16 @@
+characters = {
+	AZA_zeyd_ag_attaher = {
+		name = "Zeyd ag Attaher" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Zeyd_ag_Attaher
+			}
+		}
+		country_leader = {
+			ideology = oligarchy
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

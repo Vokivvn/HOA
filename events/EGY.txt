@@ -1,0 +1,38 @@
+﻿add_namespace = EGY
+
+country_event = { #Intro 
+	id = EGY.1
+	title = EGY.1.t
+	desc = EGY.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #
+		name = EGY.1.a
+	}
+}
+
+country_event = { #Egypt Coup 
+	id = EGY.26
+	title = EGY.26.t
+	desc = EGY.26.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #
+		name = EGY.26.a
+		hidden_effect = {
+		set_politics = {
+			ruling_party = personalism
+		}
+		set_cosmetic_tag = EGY_republic
+		ENG = {
+			end_puppet = EGY
+		}
+		EGY = {
+			leave_faction
+		}
+	}
+}

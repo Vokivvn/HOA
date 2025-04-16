@@ -75,7 +75,7 @@ country_event = { #Algeria Situation Worsens
 	}
 }
 
-country_event = { #Algeria In Revolt 
+country_event = { #Algeria Situation Worsens 
 	id = FRA.52
 	title = FRA.52.t
 	desc = FRA.52.d
@@ -92,10 +92,15 @@ country_event = { #Algeria In Revolt
 				set_province_controller = 4146
 				set_province_controller = 9964
 				set_province_controller = 11939
-			declare_war_on = {
-    			target = FRA
-    			type = annex_everything
-		}	}
+				load_oob = "ALG_REVOLT"
+				declare_war_on = {
+					target = FRA
+					type = annex_everything
+				}
+			}
+			FRA = {
+				load_oob = "FRA_REVOLT"
+			}
 		}
 	}
 }
@@ -163,7 +168,91 @@ country_event = { #Algeria Wins
 			TUN = {
 				transfer_state = 458
 				transfer_state = 665
-		}	}
+			}
+		}
+	}
+}
+
+country_event = { #Algeria Wins 
+	id = FRA.69
+	title = FRA.69.t
+	desc = FRA.69.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.69.a
+		hidden_effect = {
+		set_politics = {
+			ruling_party = revolutionary_socialism
+		}
+		set_party_name = { 
+			ideology = revolutionary_socialism 
+			long_name = FRA_PFNC_party_long
+			name = FRA_PFNC_party
+		}
+		create_country_leader = {
+			name = "Pierre Clémenti"
+			desc = "POLITICS_PIERRE_CLEMENTI_DESC"
+			picture = "GFX_FRA_Pierre_Clementi"
+			expire = "1965.1.1"
+			ideology = nationalist_socialism
+				traits = 
+			}
+		}
+		set_cosmetic_tag = FRA_national_collectivist
+	}
+}
+
+country_event = { #Algeria Wins 
+	id = FRA.70
+	title = FRA.70.t
+	desc = FRA.70.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.70.a
+		hidden_effect = {
+		set_politics = {
+			ruling_party = revolutionary_right
+		}
+		set_party_name = { 
+			ideology = revolutionary_right 
+			long_name = FRA_new_order_party_long
+			name = FRA_new_order_party
+		}
+		create_country_leader = {
+			name = "René Binet"
+			desc = "POLITICS_RENE_BINET_DESC"
+			picture = "GFX_FRA_Rene_Binet"
+			expire = "1965.1.1"
+			ideology = national_syndicalism
+				traits = 
+			}
+		}
+		set_cosmetic_tag = FRA_new_order
+	}
+}
+
+country_event = { #Algeria Wins 
+	id = FRA.80
+	title = FRA.80.t
+	desc = FRA.80.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.80.a
+		FRA = {
+			leave_faction
+			add_to_faction = GER
+		}
+		GER = {
+			Add_to_faction = FRA
 		}
 	}
 }

@@ -1,0 +1,15 @@
+﻿capital = 277 # New Rome
+
+set_politics = {
+	ruling_party = institutionalism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	institutionalism = 100
+}
+
+recruit_character = AUS_viktor_reimann
+
+

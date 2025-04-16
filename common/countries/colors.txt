@@ -502,8 +502,8 @@ KOR = {
 	color_ui = rgb { 255 248 229 }	
 }
 ISR = {
-	color = rgb { 152  130  191 }
-	color_ui = rgb { 152  130  191 }
+	color = rgb { 102 94 153 }
+	color_ui = rgb { 152 130 191 }
 }
 CSA = {
 	color = rgb { 145 163 176  }
@@ -1344,4 +1344,16 @@ RWA = {
 CLI = {
 	color = rgb { 172 187 131 }
 	color_ui = rgb { 87 160 255 }
+}
+ITC = {
+	color = rgb { 111 189 72 }
+	color_ui = rgb { 87 165 82 }
+}
+NJR = {
+	color = rgb { 93 160 125 }
+	color_ui = rgb { 87 165 82 }
+}
+ASI = {
+	color = rgb { 167 211 232 }
+	color_ui = rgb { 87 165 82 }
 }

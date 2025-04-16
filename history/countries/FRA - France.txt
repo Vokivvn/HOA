@@ -1,5 +1,7 @@
 ﻿capital = 16 # Paris
 
+oob = "FRA_1950"
+
 set_politics = {
 	ruling_party = liberalism
 	last_election = "1933.3.5"
@@ -38,7 +40,13 @@ add_to_faction = NZL
 add_to_faction = OMA
 add_to_faction = NGR
 add_to_faction = BOM
+add_to_faction = SPR
 
 recruit_character = FRA_richard_von_coudenhove_kalergi
 
+set_autonomy = {
+	target = AZA
+	autonomous_state = autonomy_condominium
+	freedom_level = 0.2
+}
 

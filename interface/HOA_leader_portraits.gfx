@@ -93,6 +93,16 @@ spriteTypes = {
 		name = "FRA_richard_von_coudenhove_kalergi"
 		texturefile = "gfx/leaders/FRA/Portrait_FRA_Richard_von_Coudenhove_Kalergi.png"
 	}
+	
+	spriteType = {
+		name = "GFX_FRA_Pierre_Clementi"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Pierre_Clementi.png"
+	}
+	
+	spriteType = {
+		name = "GFX_FRA_Rene_Binet"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Rene_Binet.png"
+	}
 
 ## AUSTRALIA
 
@@ -188,6 +198,30 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ROM_Nichifor_Crainic"
 		texturefile = "gfx/leaders/ROM/Portrait_ROM_Nichifor_Crainic.png"
+	}
+	
+# AZAWAD 
+	spriteType = {
+		name = "GFX_portrait_Zeyd_ag_Attaher"
+		texturefile = "gfx/leaders/AZA/Portrait_AZA_Zeyd_ag_Attaher.png"
+	}
+	
+# ITALIAN CYRENAICA 
+	spriteType = {
+		name = "GFX_portrait_Benito_Mussolini"
+		texturefile = "gfx/leaders/ITC/Portrait_ITC_Benito_Mussolini.png"
+	}
+	
+# CAMEROON 
+	spriteType = {
+		name = "GFX_portrait_Konstantin_von_Neurath"
+		texturefile = "gfx/leaders/CMR/Portrait_CMR_Konstantin_von_Neurath.png"
+	}
+	
+# ITALIAN ANATOLIA 
+	spriteType = {
+		name = "GFX_portrait_Peppino_Garibaldi"
+		texturefile = "gfx/leaders/IAN/Portrait_IAN_Peppino_Garibaldi.png"
 	}
 	
 }

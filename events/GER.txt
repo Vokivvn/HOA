@@ -58,3 +58,17 @@ country_event = { #Junger
 		load_focus_tree = GER_junger
 	}
 }
+
+country_event = { #New European Order 
+	id = GER.60
+	title = GER.60.t
+	desc = GER.60.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = GER.60.a
+		create_faction = "Neue europäische Ordnung" 
+	}
+}
