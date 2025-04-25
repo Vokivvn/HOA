@@ -1,0 +1,16 @@
+characters = {
+	ISA_jacqueline_I = {
+		name = "Jacqueline I" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Jacqueline_I
+			}
+		}
+		country_leader = {
+			ideology = aristocratic_reaction
+			expire = "1970.1.1.1"
+			id = -1
+		}
+	}
+}
+	

@@ -1,13 +1,13 @@
 ﻿capital = 4 # Vienna
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = libertarian_right
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	liberalism = 100
+	libertarian_right = 100
 }
 
 recruit_character = AUS_viktor_reimann

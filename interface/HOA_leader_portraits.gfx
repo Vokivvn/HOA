@@ -154,8 +154,8 @@ spriteTypes = {
 	
 # HUNGARY 
 	spriteType = {
-		name = "GFX_portrait_Zoltan_Boszormeny"
-		texturefile = "gfx/leaders/HUN/Portrait_HUN_Zoltán_Boszörmény.png"
+		name = "GFX_portrait_Jozsef_Ferenc_I"
+		texturefile = "gfx/leaders/HUN/Portrait_HUN_Joseph_Francis_I.png"
 	}
 	
 # FINLAND 
@@ -222,6 +222,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_Peppino_Garibaldi"
 		texturefile = "gfx/leaders/IAN/Portrait_IAN_Peppino_Garibaldi.png"
+	}
+	
+# INDIA SAHEL 
+	spriteType = {
+		name = "GFX_portrait_Jacqueline_I"
+		texturefile = "gfx/leaders/ISA/Portrait_ISA_Jacqueline_I.png"
 	}
 	
 }

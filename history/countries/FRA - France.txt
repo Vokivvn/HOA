@@ -41,6 +41,10 @@ add_to_faction = OMA
 add_to_faction = NGR
 add_to_faction = BOM
 add_to_faction = SPR
+add_to_faction = POR
+add_to_faction = ITA
+add_to_faction = EUP
+add_to_faction = AUS
 
 recruit_character = FRA_richard_von_coudenhove_kalergi
 

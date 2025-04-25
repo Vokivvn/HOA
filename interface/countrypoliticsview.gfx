@@ -95,18 +95,43 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_autonomy_free_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_freedom_icon.dds"
+		name = "GFX_autonomy_military_occupation_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_military_occupation_icon.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_autonomy_annex_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_annex_icon.dds"
+		name = "GFX_autonomy_satellite_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_satellite_icon.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_autonomy_dominion_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_dominion_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_condominium_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_condominium_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_colony_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_colony_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_free_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_freedom_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_constituent_state_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_constituent_state_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_annex_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_annex_icon.dds"
 	}
 
 	spriteType = {
@@ -142,11 +167,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_autonomy_reichsprotectorate_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_reichsprotectorate_icon.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_autonomy_satellite_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_satellite.dds"
 	}
 	
 	spriteType = {
@@ -480,28 +500,158 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_ideology_neutrality_group"
-		texturefile = "gfx/interface/ideologies/neutrality_group.dds"
+		name = "GFX_ideology_cosmism_group"
+		texturefile = "gfx/interface/ideologies/cosmism.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_ideology_vperedism"
+		texturefile = "gfx/interface/ideologies/vperedism.dds"
 	}	
 	
 	spriteType = {
-		name = "GFX_ideology_communism_group"
-		texturefile = "gfx/interface/ideologies/communism_group.dds"
-	}
+		name = "GFX_ideology_uraniocracy"
+		texturefile = "gfx/interface/ideologies/uraniocracy.dds"
+	}	
 	
 	spriteType = {
-		name = "GFX_ideology_fascism_group"
-		texturefile = "gfx/interface/ideologies/fascism_group.dds"
-	}
+		name = "GFX_ideology_theosophy"
+		texturefile = "gfx/interface/ideologies/theosophy.dds"
+	}	
 	
 	spriteType = {
-		name = "GFX_ideology_democratic_group"
-		texturefile = "gfx/interface/ideologies/democratic_group.dds"
-	}
+		name = "GFX_ideology_teslaism"
+		texturefile = "gfx/interface/ideologies/teslaism.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_synthesism"
+		texturefile = "gfx/interface/ideologies/synthesism.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_palingeneticism"
+		texturefile = "gfx/interface/ideologies/palingeneticism.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_new_thought"
+		texturefile = "gfx/interface/ideologies/new_thought.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_national_futurism"
+		texturefile = "gfx/interface/ideologies/national_futurism.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_national_futurism"
+		texturefile = "gfx/interface/ideologies/national_futurism.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_national_futurism"
+		texturefile = "gfx/interface/ideologies/national_futurism.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_hive_mind"
+		texturefile = "gfx/interface/ideologies/hive_mind.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_futurism"
+		texturefile = "gfx/interface/ideologies/futurism.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_frontierism"
+		texturefile = "gfx/interface/ideologies/frontierism.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_enlightened_capitalism"
+		texturefile = "gfx/interface/ideologies/enlightened_capitalism.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_dark_cosmism"
+		texturefile = "gfx/interface/ideologies/dark_cosmism.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_cosmist_anarchism"
+		texturefile = "gfx/interface/ideologies/cosmist_anarchism.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_artifexism"
+		texturefile = "gfx/interface/ideologies/artifexism.dds"
+	}	
 
 	spriteType = {
-		name = "GFX_ideology_anarchism"
+		name = "GFX_ideology_xenocracy"
+		texturefile = "gfx/interface/ideologies/xenocracy.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_absolute_syncretism"
+		texturefile = "gfx/interface/ideologies/absolute_syncretism.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_anarchism_group"
 		texturefile = "gfx/interface/ideologies/anarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_anarchism_group"
+		texturefile = "gfx/interface/ideologies/anarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_revolutionary_socialism_group"
+		texturefile = "gfx/interface/ideologies/revolutionary_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_reformist_socialism_group"
+		texturefile = "gfx/interface/ideologies/reformist_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_progressivism_group"
+		texturefile = "gfx/interface/ideologies/progressivism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_liberalism_group"
+		texturefile = "gfx/interface/ideologies/liberalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_conservatism_group"
+		texturefile = "gfx/interface/ideologies/conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_institutionalism_group"
+		texturefile = "gfx/interface/ideologies/institutionalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_personalism_group"
+		texturefile = "gfx/interface/ideologies/personalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_absolutism_group"
+		texturefile = "gfx/interface/ideologies/absolutism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_revolutionary_right_group"
+		texturefile = "gfx/interface/ideologies/revolutionary_right.dds"
 	}
 	
 	spriteType = {

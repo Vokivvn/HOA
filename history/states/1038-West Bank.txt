@@ -1,0 +1,15 @@
+state={
+	id=1038
+	name="STATE_1038"
+	provinces={
+		1086 7107 13405 13406 
+	}
+	
+	history={
+		owner = ISR
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

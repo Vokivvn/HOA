@@ -12,4 +12,27 @@ set_popularities = {
 
 recruit_character = ITA_francesco_ioele
 
+set_autonomy = {
+	target = IAN
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = ITC
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = IER
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = ISO
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
 

@@ -43,7 +43,7 @@ set_autonomy = {
 }
 
 set_autonomy = {
-	target = BEN
+	target = DAH
 	autonomous_state = autonomy_colony
 	freedom_level = 0.2
 }
