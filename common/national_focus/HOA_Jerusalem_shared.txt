@@ -1,0 +1,194 @@
+﻿#intro tree
+shared_focus = {
+	id = ISR_the_council_stands
+	icon = GFX_ISR_the_council_stands
+	cost = 1.00
+	
+	x = 5
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_einheit_freiheit_vaterland"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = ISR_concessions_to_the_arabs
+	icon = GFX_ISR_concessions_to_the_arabs
+	cost = 1.00
+	mutually_exclusive = {
+		focus = ISR_concessions_to_the_jews
+	}
+	
+	x = -1
+	y = 1
+	
+	relative_position_id = ISR_the_council_stands
+	prerequisite = { focus = ISR_the_council_stands }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_free_art_is_german_art"
+		country_event = {
+			id = GER.3
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = ISR_concessions_to_the_jews
+	icon = GFX_ISR_concessions_to_the_jews
+	cost = 1.00
+	mutually_exclusive = {
+		focus = ISR_concessions_to_the_arabs
+	}
+	
+	x = 1
+	y = 1
+	
+	relative_position_id = ISR_the_council_stands
+	prerequisite = { focus = ISR_the_council_stands }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_free_art_is_german_art"
+		country_event = {
+			id = GER.3
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = ISR_jerusalem_undivided
+	icon = GFX_ISR_jerusalem_undivided
+	cost = 1.00
+	
+	x = 1
+	y = 1
+	
+	relative_position_id = ISR_concessions_to_the_arabs
+	prerequisite = { focus = ISR_concessions_to_the_arabs focus = ISR_concessions_to_the_jews }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_free_art_is_german_art"
+		country_event = {
+			id = GER.3
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = ISR_peace_at_last
+	icon = GFX_ISR_peace_at_last
+	cost = 1.00
+	
+	x = 0
+	y = 1
+	
+	relative_position_id = ISR_jerusalem_undivided
+	prerequisite = { focus = ISR_jerusalem_undivided }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_free_art_is_german_art"
+		country_event = {
+			id = GER.3
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = ISR_conserve_our_resources
+	icon = GFX_ISR_conserve_our_resources
+	cost = 1.00
+	
+	x = -3
+	y = 1
+	
+	relative_position_id = ISR_peace_at_last
+	prerequisite = { focus = ISR_peace_at_last }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_free_art_is_german_art"
+		country_event = {
+			id = GER.3
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = ISR_protect_our_monuments
+	icon = GFX_ISR_protect_our_monuments
+	cost = 1.00
+	
+	x = -1
+	y = 1
+	
+	relative_position_id = ISR_peace_at_last
+	prerequisite = { focus = ISR_peace_at_last }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_free_art_is_german_art"
+		country_event = {
+			id = GER.3
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = ISR_defend_our_cities
+	icon = GFX_ISR_defend_our_cities
+	cost = 1.00
+	
+	x = 1
+	y = 1
+	
+	relative_position_id = ISR_peace_at_last
+	prerequisite = { focus = ISR_peace_at_last }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_free_art_is_german_art"
+		country_event = {
+			id = GER.3
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = ISR_rebuild_our_roads
+	icon = GFX_ISR_rebuild_our_roads
+	cost = 1.00
+	
+	x = 3
+	y = 1
+	
+	relative_position_id = ISR_peace_at_last
+	prerequisite = { focus = ISR_peace_at_last }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_free_art_is_german_art"
+		country_event = {
+			id = GER.3
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = ISR_the_holy_peace
+	icon = GFX_ISR_the_holy_peace
+	cost = 1.00
+	
+	x = -1
+	y = 1
+	
+	relative_position_id = ISR_defend_our_cities
+	prerequisite = { focus = ISR_conserve_our_resources } prerequisite = { focus = ISR_protect_our_monuments } prerequisite = { focus = ISR_defend_our_cities } prerequisite = { focus = ISR_rebuild_our_roads }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_free_art_is_german_art"
+		country_event = {
+			id = GER.3
+			days = 0
+		}
+	}
+}

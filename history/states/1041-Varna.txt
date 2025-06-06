@@ -1,0 +1,15 @@
+state={
+	id=1041
+	name="STATE_1041"
+	provinces={
+		649 9769 9783 
+	}
+	
+	history={
+		owner = GRE
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

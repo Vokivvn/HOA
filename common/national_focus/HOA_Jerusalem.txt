@@ -1,0 +1,15 @@
+﻿focus_tree = {
+	id = ISR_Intro
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ISR
+		}
+	}
+	default = no
+	shared_focus = ISR_the_council_stands
+	initial_show_position = {
+		focus = ISR_the_council_stands
+	}
+}

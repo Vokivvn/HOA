@@ -1114,7 +1114,7 @@ STP = {
 	color_ui = rgb { 61 61 92 }
 }
 SNS = {
-	color = rgb { 68 123 104 }
+	color = rgb { 56 160 122 }
 	color_ui = rgb { 61 61 92 }
 }
 BNT = {
@@ -1154,7 +1154,7 @@ NIR = {
 	color_ui = rgb { 61 61 92 }
 } 
 FDL = {
-	color = rgb { 252 133 171 }
+	color = rgb { 194 130 216 }
 	color_ui = rgb { 61 61 92 }
 } 
 IER = {
@@ -1179,10 +1179,6 @@ OLD = {
 } 
 NVR = {
 	color = rgb { 123 34 40 }
-	color_ui = rgb { 61 61 92 }
-} 
-PIN = {
-	color = rgb { 194 130 216 }
 	color_ui = rgb { 61 61 92 }
 } 
 AZL = {
@@ -1355,5 +1351,49 @@ NJR = {
 }
 ASI = {
 	color = rgb { 167 211 232 }
+	color_ui = rgb { 87 165 82 }
+}
+CIS = {
+	color = rgb { 55 149 106 }
+	color_ui = rgb { 87 165 82 }
+}
+TGR = {
+	color = rgb { 116 139 170 }
+	color_ui = rgb { 87 165 82 }
+}
+KAH = {
+	color = rgb { 182 179 48 }
+	color_ui = rgb { 87 165 82 }
+}
+AMB = {
+	color = rgb { 123 196 180 }
+	color_ui = rgb { 87 165 82 }
+}
+PNM = {
+	color = rgb { 76 217 111 }
+	color_ui = rgb { 87 165 82 }
+}
+SAO = {
+	color = rgb { 141 141 141 }
+	color_ui = rgb { 87 165 82 }
+}
+FNA = {
+	color = rgb { 118 142 199 }
+	color_ui = rgb { 87 165 82 }
+}
+ATL = {
+	color = rgb { 2 147 134 }
+	color_ui = rgb { 87 165 82 }
+}
+HJZ = {
+	color = rgb { 153 106 46 }
+	color_ui = rgb { 87 165 82 }
+}
+UAR = {
+	color = rgb { 212 152 69 }
+	color_ui = rgb { 87 165 82 }
+}
+MAU = {
+	color = rgb { 186 127 124 }
 	color_ui = rgb { 87 165 82 }
 }

@@ -230,4 +230,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ISA/Portrait_ISA_Jacqueline_I.png"
 	}
 	
+# ISRAEL 
+	spriteType = {
+		name = "GFX_portrait_Holy_Council"
+		texturefile = "gfx/leaders/ISR/Portrait_ISR_Holy_Council.png"
+	}
+	
 }

@@ -1,0 +1,37 @@
+﻿add_namespace = USA
+
+country_event = { #Intro 
+	id = USA.1
+	title = USA.1.t
+	desc = USA.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = USA.1.a
+	}
+}
+
+country_event = { #Intro 
+	id = USA.40
+	title = USA.40.t
+	desc = USA.40.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = USA.40.a
+		hidden_effect = {
+			AMB = {
+				transfer_state = 498
+				transfer_state = 935
+				declare_war_on = {
+					target = PNM
+					type = annex_everything	
+				}	
+			}
+		}
+	}
+}

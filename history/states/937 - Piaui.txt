@@ -11,8 +11,8 @@ state = {
 
 	history = {
 
-		owner = BRA
-		add_core_of = BRA
+		owner = PNM
+		add_core_of = PNM
 
 		buildings = {
 			infrastructure = 2
@@ -26,7 +26,7 @@ state = {
 	}
 
 	provinces = {
-		2228 5153 5204 10984 13275
+		2228 5153 5204 10984 
 	}
 
 	local_supplies = 0.0 

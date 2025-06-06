@@ -1,0 +1,94 @@
+﻿add_namespace = TUR
+
+country_event = { #Intro 
+	id = TUR.1
+	title = TUR.1.t
+	desc = TUR.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = TUR.1.a
+	}
+}
+
+country_event = {  
+	id = TUR.40
+	title = TUR.40.t
+	desc = TUR.40.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = TUR.40.a
+		hidden_effect = {
+		TUR = {
+			declare_war_on = {
+    			target = GRE
+    			type = annex_everything
+			}
+			load_oob = TUR_LIBERATION
+			}
+		}
+	}
+}
+
+country_event = {  
+	id = TUR.50
+	title = TUR.50.t
+	desc = TUR.50.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = TUR.50.a
+		hidden_effect = {
+			white_peace = GRE
+			TUR = {
+				country_event = {
+					id = TUR.51
+					days = 0
+				}
+				transfer_state = 49
+				transfer_state = 230
+				transfer_state = 339
+				transfer_state = 340
+				transfer_state = 343
+				transfer_state = 347
+				transfer_state = 350
+				transfer_state = 352
+				transfer_state = 353
+				transfer_state = 354
+				transfer_state = 355
+				transfer_state = 356
+				transfer_state = 797
+				transfer_state = 799
+				transfer_state = 800
+				}
+			GRE = {
+				country_event = { 
+					id = GRE.28
+					days = 6
+				}
+			}
+		}
+	}
+}
+
+country_event = {  
+	id = TUR.51
+	title = TUR.51.t
+	desc = TUR.51.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = TUR.51.a
+		set_cosmetic_tag = TUR_win
+		}
+	}
+}

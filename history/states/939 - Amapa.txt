@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = PIN
-		add_core_of = PIN
+		owner = FDL
+		add_core_of = FDL
 		buildings = {
 			infrastructure = 1
 			4980 = {

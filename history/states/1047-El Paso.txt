@@ -1,0 +1,15 @@
+state={
+	id=1047
+	name="STATE_1047"
+	provinces={
+		1954 1998 3867 4955 5038 10740 10894 12791 
+	}
+	
+	history={
+		owner = USA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

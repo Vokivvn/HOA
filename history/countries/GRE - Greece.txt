@@ -1,5 +1,7 @@
 ﻿capital = 797 # Constantinople
 
+oob = "GRE_1950"
+
 # Setup Greek Politics
 set_politics = {
 	ruling_party = absolutism

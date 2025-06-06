@@ -5,19 +5,52 @@ on_actions = {
 				limit = {
 					ROOT = { tag = ALG }
 					FROM = {
-						tag = FRA
-						AND = {
-							459 = { is_controlled_by = ALG }
-							513 = { is_controlled_by = ALG }
-							514 = { is_controlled_by = ALG }
-						}
+						tag = FNA
+						surrender_progress > 0.3
 					}
 				}
-				FRA = {
+				FNA = {
 					country_event = { id = FRA.60 days = 2 }
 				}
 			}
 		} 
 	}
 	
+	on_state_control_changed = {
+		effect = { 
+			if = {
+				limit = {
+					FROM = {
+						tag = GRE
+						surrender_progress > 0.3
+					}
+					TUR = {
+						has_war_with = GRE
+					}
+				}
+				TUR = {
+					country_event = { id = TUR.50 days = 2 }
+				}
+			}
+		} 
+	}
+	
+	on_state_control_changed = {
+		effect = { 
+			if = {
+				limit = {
+					FROM = {
+						tag = TUR
+						surrender_progress > 0.3
+					}
+					GRE = {
+						has_war_with = TUR
+					}
+				}
+				GRE = {
+					country_event = { id = GRE.50 days = 2 }
+				}
+			}
+		} 
+	}
 }

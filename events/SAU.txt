@@ -1,0 +1,53 @@
+﻿add_namespace = SAU
+
+country_event = { #Intro 
+	id = SAU.1
+	title = SAU.1.t
+	desc = SAU.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #
+		name = SAU.1.a
+	}
+}
+
+country_event = { #Saudi civil war 
+	id = SAU.26
+	title = SAU.26.t
+	desc = SAU.26.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #
+		name = SAU.26.a
+		hidden_effect = {
+		UAR = {
+			transfer_state = 854
+			transfer_state = 855
+			transfer_state = 857
+			transfer_state = 859
+			declare_war_on = {
+    			target = SAU
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = HJZ
+    			type = annex_everything
+			}
+		}
+		HJZ = {
+			transfer_state = 679
+			declare_war_on = {
+    			target = SAU
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = UAR
+    			type = annex_everything
+			}
+		}
+	}
+}

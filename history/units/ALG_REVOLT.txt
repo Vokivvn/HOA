@@ -42,6 +42,24 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division = {
+		name = "Algerian People's Army Division"
+		location = 12051
+		division_template = "Revolutionary Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Algerian People's Army Division"
+		location = 12051
+		division_template = "Revolutionary Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Algerian People's Army Division"
+		location = 12760
+		division_template = "Revolutionary Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
 		#name = "Militia Division"
 		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
@@ -50,7 +68,16 @@ units = {
 		location = 4146
 		division_template = "Militia"
 		start_equipment_factor = 0.3
-
+	}	
+	division = {
+		#name = "Militia Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 460
+		division_template = "Militia"
+		start_equipment_factor = 0.3
 	}	
 
 }

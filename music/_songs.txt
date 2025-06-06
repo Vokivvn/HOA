@@ -5,13 +5,13 @@ music = {
 	song = "maintheme"
 	chance = {
 		modifier = {
-			factor = 0.5
+			factor = 0
 		}		
 	}
 }
 
 music = {
-	song = "funkerlied"
+	song = "hoi4_maintheme"
 	chance = {
 		modifier = {
 			factor = 0.5
@@ -20,7 +20,7 @@ music = {
 }
 
 # PEACE SONGS ##################
-#music = {
+music = {
 	song = "general_peace_1"
 	
 	chance = {

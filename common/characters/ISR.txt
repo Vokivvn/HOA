@@ -1,0 +1,16 @@
+characters = {
+	ISR_holy_council = {
+		name = "Holy Council" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Holy_Council
+			}
+		}
+		country_leader = {
+			ideology = theocracy
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+}
+	

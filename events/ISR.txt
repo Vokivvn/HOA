@@ -1,0 +1,135 @@
+﻿add_namespace = ISR
+
+country_event = { #Intro 
+	id = ISR.1
+	title = ISR.1.t
+	desc = ISR.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #
+		name = ISR.1.a
+	}
+}
+
+country_event = { #Jerusalem Civil War 
+	id = ISR.26
+	title = ISR.26.t
+	desc = ISR.26.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #
+		name = ISR.26.a
+		hidden_effect = {
+		set_politics = {
+			ruling_party = institutionalism
+		}
+		set_cosmetic_tag = ISR_civilwar
+		PAL = {
+			transfer_state = 455
+			transfer_state = 1038
+			declare_war_on = {
+    			target = ISR
+    			type = annex_everything
+			}
+			load_oob = PAL_WAR
+		}
+		ISR = {
+			load_oob = ISR_REVOLT
+			country_event = ISR.27
+			}
+		}
+	}
+}
+
+country_event = { #Jerusalem Civil War 
+	id = ISR.27
+	title = ISR.27.t
+	desc = ISR.27.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #
+		name = ISR.27.a
+		hidden_effect = {
+		LEB = {
+			transfer_state = 553
+			declare_war_on = {
+    			target = PAL
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = ISR
+    			type = annex_everything
+			}
+			load_oob = LEB_WAR
+		}
+		ISR = {
+			country_event = ISR.28
+			}
+		}
+	}
+}
+
+country_event = { #Jerusalem Civil War 
+	id = ISR.28
+	title = ISR.28.t
+	desc = ISR.28.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #
+		name = ISR.28.a
+		hidden_effect = {
+		DAM = {
+			transfer_state = 554
+			set_province_controller = 1108
+			set_province_controller = 10087
+			declare_war_on = {
+    			target = ISR
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = LEB
+    			type = annex_everything
+			}
+			load_oob = DAM_WAR
+		}
+		ISR = {
+			country_event = ISR.29
+			}
+		}
+	}
+}
+
+country_event = { #Jerusalem Civil War 
+	id = ISR.29
+	title = ISR.29.t
+	desc = ISR.29.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #
+		name = ISR.29.a
+		hidden_effect = {
+		JDR = {
+			transfer_state = 1054
+			set_province_controller = 1074
+			declare_war_on = {
+    			target = DAM
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = ISR
+    			type = annex_everything
+			}
+			load_oob = JDR_WAR
+		}
+	}
+}

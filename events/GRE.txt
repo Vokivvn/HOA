@@ -66,7 +66,7 @@ country_event = { #Bulgaria Rises Up
 	}
  }
 
-country_event = { #Bulgaria Rises Up
+country_event = {
 	id = GRE.28
 	title = GRE.28.t
 	desc = GRE.28.d
@@ -76,16 +76,112 @@ country_event = { #Bulgaria Rises Up
 	
 	option = {
 		name = GRE.28.a
-		ATO = {
-			transfer_state = 49
-			transfer_state = 343
-			transfer_state = 347
-			transfer_state = 356
-			load_oob = ATO_REVOLT
-			declare_war_on = {
-    			target = GRE
-    			type = annex_everything
+		GRE = {
+			set_cosmetic_tag = GRE_loss
+		hidden_effect = {
+			country_event = { 
+				id = GRE.29
+				days = 33
+				}
 			}
 		}
 	}
- }
+}
+ 
+country_event = {
+	id = GRE.29
+	title = GRE.29.t
+	desc = GRE.29.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GRE.29.a
+		GRE = {
+			dismantle_faction = yes
+			}
+		hidden_effect = {
+			YUG = {
+				country_event = { 
+                    id = YUG.26
+                    days = 27
+				}
+			}
+			GRE = {
+				country_event = { 
+                    id = GRE.40
+                    days = 51
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Intro 
+	id = GRE.40
+	title = GRE.40.t
+	desc = GRE.40.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #
+		name = GRE.40.a
+		hidden_effect = {
+			BUL = {
+				transfer_state = 184
+				transfer_state = 211
+				transfer_state = 212
+				transfer_state = 341
+			}
+		}
+	}
+}
+
+country_event = { #Intro 
+	id = GRE.42
+	title = GRE.42.t
+	desc = GRE.42.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #
+		name = GRE.42.a
+		hidden_effect = {
+			BUL = {
+				declare_war_on = {
+					target = GRE
+					type = annex_everything	
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Intro 
+	id = GRE.50
+	title = GRE.50.t
+	desc = GRE.50.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #
+		name = GRE.50.a
+		hidden_effect = {
+			ATO = {
+				transfer_state = 344
+				transfer_state = 345
+				transfer_state = 346
+				transfer_state = 348
+				transfer_state = 349
+				transfer_state = 798
+			}
+			GRE = {
+				add_to_faction = ATO
+			}
+		}
+	}
+}

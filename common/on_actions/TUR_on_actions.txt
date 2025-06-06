@@ -1,0 +1,14 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			TUR = {
+				country_event = { id = TUR.1 days = 0 } 
+			}
+		}
+		effect = {
+			TUR = {
+				country_event = { id = TUR.40 days = 186 } 
+			}
+		}
+	}
+}

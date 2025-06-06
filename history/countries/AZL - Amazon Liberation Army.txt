@@ -13,8 +13,8 @@ set_popularities = {
 1950.1.1 = {
 
 	declare_war_on = {
-		target = PIN
-		type = puppet_wargoal_focus
+		target = FDL
+		type = annex_everything
 	}
 }
 

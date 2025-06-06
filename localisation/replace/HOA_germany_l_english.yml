@@ -1,4 +1,12 @@
 ﻿l_english:
+ GER_cosmism_party:0 "BAUHAUS"
+ GER_cosmism_party_long:0 "BAUHAUS"
+ GER_anarchism_party:0 "FAU"
+ GER_anarchism_party_long:0 "Freie Arbeiter Union"
+ GER_revolutionary_socialism_party:0 "-"
+ GER_revolutionary_socialism_party_long:0 "-"
+ GER_revolutionary_right_party:0 "NSDAP"
+ GER_revolutionary_right_party_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
  GER_einheit_freiheit_vaterland:0 "Einheit, Freiheit, Vaterland"
  GER_einheit_freiheit_vaterland_desc:0 ""
 

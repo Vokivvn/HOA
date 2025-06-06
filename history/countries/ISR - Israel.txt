@@ -10,4 +10,4 @@ set_popularities = {
 	absolutism = 100
 }
 
-recruit_character = ISR_council
+recruit_character = ISR_holy_council

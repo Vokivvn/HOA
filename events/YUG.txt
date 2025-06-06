@@ -13,7 +13,7 @@ country_event = { #Intro
 	}
 }
 
-country_event = { #Croatian Revolt 
+country_event = {  
 	id = YUG.26
 	title = YUG.26.t
 	desc = YUG.26.d
@@ -21,19 +21,90 @@ country_event = { #Croatian Revolt
 
 	is_triggered_only = yes
 	
-	option = { #Rosenberg
+	option = { 
 		name = YUG.26.a
 		hidden_effect = {
 		CRO = {
 			transfer_state = 109
-			transfer_state = 104
+			transfer_state = 804
+			declare_war_on = {
+    			target = YUG
+    			type = annex_everything
+			}
+			load_oob = CRO_REVOLT
+		}
+		YUG = {
+			set_province_controller = 953
+			set_province_controller = 6647
+			set_province_controller = 9595
+			set_province_controller = 11577
+			set_province_controller = 11580
+			load_oob = YUG_REVOLT
+			country_event = YUG.27
+			}
+		}
+	}
+}
+
+country_event = { #Slovene Revolt 
+	id = YUG.27
+	title = YUG.27.t
+	desc = YUG.27.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = YUG.27.a
+		hidden_effect = {
+		SLV = {
 			transfer_state = 102
 			transfer_state = 853
 			declare_war_on = {
     			target = YUG
     			type = annex_everything
+				}
+			}
+			declare_war_on = {
+    			target = CRO
+    			type = annex_everything
+				}
 			}
 		YUG = {
+			country_event = YUG.28
+		}
+	}
+}
+
+country_event = { #Bosnian Revolt 
+	id = YUG.28
+	title = YUG.28.t
+	desc = YUG.28.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = YUG.28.a
+		hidden_effect = {
+		BOS = {
+			transfer_state = 104
+			declare_war_on = {
+    			target = YUG
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = CRO
+    			type = annex_everything
+			}
+		}
+		YUG = {
+			set_province_controller = 606
+			set_province_controller = 6983
+			set_province_controller = 9591
+			set_province_controller = 11574
+			set_province_controller = 11741
+			}
 		}
 	}
 }

@@ -7,3 +7,13 @@ EGY_republic = {
 	color = rgb { 160 125 90 }
 	color_ui = rgb { 200 10 10 }
 }
+
+SUD_free = {
+	color = rgb { 135 80 49 }
+	color_ui = rgb { 200 10 10 }
+}
+
+ITC_free = {
+	color = rgb { 0 117 46 }
+	color_ui = rgb { 200 10 10 }
+}

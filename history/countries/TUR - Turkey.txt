@@ -1,5 +1,7 @@
 ﻿capital = 798 # Amasya
 
+oob = "TUR_1950"
+
 set_politics = {
 	ruling_party = revolutionary_socialism
 	last_election = "1933.3.5"

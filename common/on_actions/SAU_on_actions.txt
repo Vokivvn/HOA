@@ -1,0 +1,14 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			SAU = {
+				country_event = { id = SAU.1 days = 0 } 
+			}
+		}
+		effect = {
+			SAU = {
+				country_event = { id = SAU.26 days = 1068 } 
+			}
+		}
+	}
+}

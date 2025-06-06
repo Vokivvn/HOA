@@ -1,0 +1,15 @@
+state={
+	id=1042
+	name="STATE_1042"
+	provinces={
+		4727 7986 10387 12303 
+	}
+	
+	history={
+		owner = USA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

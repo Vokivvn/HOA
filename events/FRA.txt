@@ -86,20 +86,27 @@ country_event = { #Algeria Situation Worsens
 	option = { #intro
 		name = FRA.52.a
 		hidden_effect = {
+			FNA = {
+				transfer_state = 458
+				transfer_state = 461
+				transfer_state = 462
+				transfer_state = 514
+				transfer_state = 665
+				transfer_state = 783
+				transfer_state = 1031
+				transfer_state = 1032
+				transfer_state = 1040
+				load_oob = "FNA_REVOLT"
+			}
 			ALG = {
+				transfer_state = 459
 				transfer_state = 460
-				set_province_controller = 4131
-				set_province_controller = 4146
-				set_province_controller = 9964
-				set_province_controller = 11939
+				transfer_state = 513
 				load_oob = "ALG_REVOLT"
 				declare_war_on = {
-					target = FRA
+					target = FNA
 					type = annex_everything
 				}
-			}
-			FRA = {
-				load_oob = "FRA_REVOLT"
 			}
 		}
 	}
@@ -122,9 +129,33 @@ country_event = { #Algeria Wins
 				transfer_state = 459
 				transfer_state = 513
 				transfer_state = 514
+				transfer_state = 1040
 			}
 			FRA = {
-				country_event = { id = FRA.63 days = 21 } 
+				country_event = { id = FRA.61 days = 3 } 
+				country_event = { id = FRA.63 days = 21 }
+			}
+		}
+	}
+}
+
+country_event = { #Algeria Wins 
+	id = FRA.61
+	title = FRA.61.t
+	desc = FRA.61.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = FRA.61.a
+		hidden_effect = {
+			FRA = {
+				end_puppet = AZA
+			}
+			AZA = {
+				leave_faction
+				}
 			}
 		}
 	}
@@ -169,6 +200,9 @@ country_event = { #Algeria Wins
 				transfer_state = 458
 				transfer_state = 665
 			}
+			FRA = {
+				country_event = { id = FRA.69 days = 9 } 
+			}
 		}
 	}
 }
@@ -183,6 +217,45 @@ country_event = { #Algeria Wins
 	
 	option = { #intro
 		name = FRA.69.a
+		hidden_effect = {
+			TGR = {
+				transfer_state = 1031
+			}
+			FRA = {
+				country_event = { id = FRA.70 days = 15 } 
+			}
+		}
+	}
+}
+
+country_event = { #Algeria Wins 
+	id = FRA.70
+	title = FRA.70.t
+	desc = FRA.70.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.70.a
+		hidden_effect = {
+			KAH = {
+				transfer_state = 1040
+			}
+		}
+	}
+}
+
+country_event = { #Algeria Wins 
+	id = FRA.78
+	title = FRA.78.t
+	desc = FRA.78.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.78.a
 		hidden_effect = {
 		set_politics = {
 			ruling_party = revolutionary_socialism
@@ -206,15 +279,15 @@ country_event = { #Algeria Wins
 }
 
 country_event = { #Algeria Wins 
-	id = FRA.70
-	title = FRA.70.t
-	desc = FRA.70.d
+	id = FRA.79
+	title = FRA.79.t
+	desc = FRA.79.d
 	picture = GFX_report_event_chinese_soldiers_01
 
 	is_triggered_only = yes
 	
 	option = { #intro
-		name = FRA.70.a
+		name = FRA.79.a
 		hidden_effect = {
 		set_politics = {
 			ruling_party = revolutionary_right

@@ -6,8 +6,8 @@ state={
 	}
 	
 	history={
-		owner = PIN
-		add_core_of = PIN
+		owner = FDL
+		add_core_of = FDL
 
 		1938.10.25 = {		
 			AZL = {

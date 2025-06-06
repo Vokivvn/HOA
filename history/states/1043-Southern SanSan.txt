@@ -1,0 +1,15 @@
+state={
+	id=1043
+	name="STATE_1043"
+	provinces={
+		823 1562 10483 11795 12374 
+	}
+	
+	history={
+		owner = SSA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

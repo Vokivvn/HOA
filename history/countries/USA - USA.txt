@@ -14,7 +14,6 @@ create_faction = columbia_accord
 add_to_faction = USA
 add_to_faction = QUE
 add_to_faction = CAN
-add_to_faction = LIB
 add_to_faction = CLR
 add_to_faction = BSW
 add_to_faction = SSA
